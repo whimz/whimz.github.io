@@ -314,6 +314,11 @@ section{
 	background: #262626;
 }
 
+.section-image-bg{
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+                url(../img/clients/man-drawing-team.jpg) -165px -240px no-repeat;
+}
+
 .title-in-black{
 	color: #262626;
 }
@@ -333,13 +338,16 @@ section{
 	text-align: center;
 }
 
+.intro-white{
+    color: #fff;
+}
+
 .about-review{
 	position: relative;
 	display: block;
 	margin: 100px auto 100px auto;
 	width: 83.57%;
 	height: auto;
-	/*overflow: hidden;*/
 }
 
 .about-review-info{
@@ -631,18 +639,17 @@ section{
 }
 
 .illustration-wrap{
-	width: 100%;
 	height: auto;
-	padding: 95px 0 105px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 100px 0 100px 0;
 }
 
 .illustration{
-	position: relative;
-	display: inline-block;
 	height: 350px;
 	box-sizing: border-box;
-	margin: -5px 0 0 -4px;
-	background-repeat: no-repeat, no-repeat;
 }
 
 .illustration:nth-of-type(1),
@@ -659,57 +666,36 @@ section{
 	width: 300px;
 }
 
-.illustration:first-child{
-	margin-left: 0px;
-}
-
 .illustration:nth-of-type(1){
-	background-color: #f39943;
-	background-image: url('../img/portfolio/money.png');
-	background-position: 65px 70px;
+    background: #f39943 url('../img/portfolio/money.png') 65px 70px no-repeat;
 }
 
 .illustration:nth-of-type(2){
-	background-color: #3782aa;
-	background-image: url('../img/portfolio/bank.jpg');
-	background-position: -27px 88px;
+    background: #3782aa url('../img/portfolio/bank.jpg') -27px 88px no-repeat;
 }
 
 .illustration:nth-of-type(3){
-	background-color: #ef5d88;
-	background-image: url('../img/portfolio/flowers.png');
-	background-position: 72px 80px;
+    background: #ef5d88 url('../img/portfolio/flowers.png') 72px 80px no-repeat;
 }
 
 .illustration:nth-of-type(4){
-	background-color: #f6f0e0;
-	background-image: url('../img/portfolio/cards.png');
-	background-position: 53px 80px;
+    background: #f6f0e0 url('../img/portfolio/cards.png') 53px 80px no-repeat;
 }
 
 .illustration:nth-of-type(5){
-	background-color: #56cc82;
-	background-image: url('../img/portfolio/calc.png');
-	background-position: 64px 85px;
-	margin-left: 0;
+    background: #56cc82 url('../img/portfolio/calc.png') 64px 85px no-repeat;
 }
 
 .illustration:nth-of-type(6){
-	background-color: #95a5a5;
-	background-image: url('../img/portfolio/currency.png');
-	background-position: 70px 95px;
+    background: #95a5a5 url('../img/portfolio/currency.png') 70px 95px no-repeat;
 }
 
 .illustration:nth-of-type(7){
-	background-color: #24b0c9;
-	background-image: url('../img/portfolio/vallet.png');
-	background-position: 40px 60px;
+	background: #24b0c9 url('../img/portfolio/vallet.png') 40px 60px no-repeat;
 }
 
 .illustration:nth-of-type(8){
-	background-color: #fa8562;
-	background-image: url('../img/portfolio/receipt.png');
-	background-position: 70px 95px;
+    background: #fa8562 url('../img/portfolio/receipt.png') 70px 95px no-repeat;
 }
 
 .features-wrap{
@@ -802,6 +788,144 @@ section{
 	transition: all 0.2s linear;
 	text-align: center;
 }
+
+.clients-wrap{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 83.57%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.clients-logo-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 570px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.clients-logo{
+    position: relative;
+    width: 270px;
+    height: 115px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 100px 5px #848484 inset;
+    background-position: 0 0;
+}
+
+.clients-logo:nth-child(1){
+    background: rgba(255, 255, 255, 1) url(../img/clients/graphicriver.png) 50% 55% no-repeat;
+}
+
+.clients-logo:nth-child(2){
+    background: rgba(255, 255, 255, 1) url(../img/clients/videohive.png) 50% 55% no-repeat;
+}
+
+.clients-logo:nth-child(3){
+    background: rgba(255, 255, 255, 1) url(../img/clients/photodune.png) 50% 55% no-repeat;
+}
+
+.clients-logo:nth-child(4){
+    background: rgba(255, 255, 255, 1) url(../img/clients/codecanyon.png) 50% 55% no-repeat;
+}
+
+.clients-subtitle{
+    display: block;
+    margin: 50px auto 0 auto;
+    font-family: "Raleway-Medium", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.clients-text{
+    font-family: "Lato-Regular", serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #a4a4a4;
+}
+
+.profiles-wrap{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto 100px auto;
+    width: 83.57%;
+}
+
+.profile{
+    width: 270px;
+    height: 360px;
+}
+
+.profile-social-icons, .profile-img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 270px;
+	height: 240px;
+	background: #262626;
+}
+
+.profile-social-icons img{
+	cursor: pointer;
+}
+
+.profile-social-icons img:hover{
+	transform: scale(1.2, 1.2);
+	transition: transform 0.2s linear;
+}
+
+.profile-info{
+	width: inherit;
+	display: block;
+	box-sizing: border-box;
+	height: 120px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	padding-top: 30px;
+	cursor: pointer;
+}
+
+.profile-info p{
+	font-family: "Raleway-Medium", serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #262626;
+}
+
+.profile-info p span{
+	font-family: "Lato-Regular", serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #505050;
+	text-transform: none;
+}
+
+.profile-info:hover{
+	border-left-color: #262626;
+	border-bottom-color: #262626;
+}
+
+.profile-info:hover>p{
+	color: #ff0036;
+}
+
+
+
+
+
+
+
+
 
 
 
