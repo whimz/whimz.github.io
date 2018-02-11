@@ -5,10 +5,10 @@
     font-family: 'adoniscitalicwebfont';
     src: url('../fonts/adoniscitalicwebfont.eot');
     src: url('../fonts/adoniscitalicwebfont.eot') format('embedded-opentype'),
-         url('../fonts/adoniscitalicwebfont.woff2') format('woff2'),
-         url('../fonts/adoniscitalicwebfont.woff') format('woff'),
-         url('../fonts/adoniscitalicwebfont.ttf') format('truetype'),
-         url('../fonts/adoniscitalicwebfont.svg#adoniscitalicwebfont') format('svg');
+    url('../fonts/adoniscitalicwebfont.woff2') format('woff2'),
+    url('../fonts/adoniscitalicwebfont.woff') format('woff'),
+    url('../fonts/adoniscitalicwebfont.ttf') format('truetype'),
+    url('../fonts/adoniscitalicwebfont.svg#adoniscitalicwebfont') format('svg');
 }
 
 /*adonisc-webfont*/
@@ -16,10 +16,10 @@
     font-family: 'adoniscwebfont';
     src: url('../fonts/adoniscwebfont.eot');
     src: url('../fonts/adoniscwebfont.eot') format('embedded-opentype'),
-         url('../fonts/adoniscwebfont.woff2') format('woff2'),
-         url('../fonts/adoniscwebfont.woff') format('woff'),
-         url('../fonts/adoniscwebfont.ttf') format('truetype'),
-         url('../fonts/adoniscwebfont.svg#adoniscwebfont') format('svg');
+    url('../fonts/adoniscwebfont.woff2') format('woff2'),
+    url('../fonts/adoniscwebfont.woff') format('woff'),
+    url('../fonts/adoniscwebfont.ttf') format('truetype'),
+    url('../fonts/adoniscwebfont.svg#adoniscwebfont') format('svg');
 }
 
 /*SegoeUI-Italic-webfont*/
@@ -27,10 +27,10 @@
     font-family: 'SegoeUIItalicwebfont';
     src: url('../fonts/SegoeUIItalicwebfont.eot');
     src: url('../fonts/SegoeUIItalicwebfont.eot') format('embedded-opentype'),
-         url('../fonts/SegoeUIItalicwebfont.woff2') format('woff2'),
-         url('../fonts/SegoeUIItalicwebfont.woff') format('woff'),
-         url('../fonts/SegoeUIItalicwebfont.ttf') format('truetype'),
-         url('../fonts/SegoeUIItalicwebfont.svg#SegoeUIItalicwebfont') format('svg');
+    url('../fonts/SegoeUIItalicwebfont.woff2') format('woff2'),
+    url('../fonts/SegoeUIItalicwebfont.woff') format('woff'),
+    url('../fonts/SegoeUIItalicwebfont.ttf') format('truetype'),
+    url('../fonts/SegoeUIItalicwebfont.svg#SegoeUIItalicwebfont') format('svg');
 }
 
 /*segoeui-lightitalic-webfont*/
@@ -38,10 +38,10 @@
     font-family: 'segoeuilightitalicwebfont';
     src: url('../fonts/segoeuilightitalicwebfont.eot');
     src: url('../fonts/segoeuilightitalicwebfont.eot') format('embedded-opentype'),
-         url('../fonts/segoeuilightitalicwebfont.woff2') format('woff2'),
-         url('../fonts/segoeuilightitalicwebfont.woff') format('woff'),
-         url('../fonts/segoeuilightitalicwebfont.ttf') format('truetype'),
-         url('../fonts/segoeuilightitalicwebfont.svg#segoeuilightitalicwebfont') format('svg');
+    url('../fonts/segoeuilightitalicwebfont.woff2') format('woff2'),
+    url('../fonts/segoeuilightitalicwebfont.woff') format('woff'),
+    url('../fonts/segoeuilightitalicwebfont.ttf') format('truetype'),
+    url('../fonts/segoeuilightitalicwebfont.svg#segoeuilightitalicwebfont') format('svg');
 }
 
 /*SegoeUI-Light-webfont*/
@@ -49,10 +49,10 @@
     font-family: 'SegoeUILightwebfont';
     src: url('../fonts/SegoeUILightwebfont.eot');
     src: url('../fonts/SegoeUILightwebfont.eot') format('embedded-opentype'),
-         url('../fonts/SegoeUILightwebfont.woff2') format('woff2'),
-         url('../fonts/SegoeUILightwebfont.woff') format('woff'),
-         url('../fonts/SegoeUILightwebfont.ttf') format('truetype'),
-         url('../fonts/SegoeUILightwebfont.svg#SegoeUILightwebfont') format('svg');
+    url('../fonts/SegoeUILightwebfont.woff2') format('woff2'),
+    url('../fonts/SegoeUILightwebfont.woff') format('woff'),
+    url('../fonts/SegoeUILightwebfont.ttf') format('truetype'),
+    url('../fonts/SegoeUILightwebfont.svg#SegoeUILightwebfont') format('svg');
 }
 
 /*SegoeUIr-webfont*/
@@ -60,10 +60,10 @@
     font-family: 'SegoeUIrwebfont';
     src: url('../fonts/SegoeUIrwebfont.eot');
     src: url('../fonts/SegoeUIrwebfont.eot') format('embedded-opentype'),
-         url('../fonts/SegoeUIrwebfont.woff2') format('woff2'),
-         url('../fonts/SegoeUIrwebfont.woff') format('woff'),
-         url('../fonts/SegoeUIrwebfont.ttf') format('truetype'),
-         url('../fonts/SegoeUIrwebfont.svg#SegoeUIrwebfont') format('svg');
+    url('../fonts/SegoeUIrwebfont.woff2') format('woff2'),
+    url('../fonts/SegoeUIrwebfont.woff') format('woff'),
+    url('../fonts/SegoeUIrwebfont.ttf') format('truetype'),
+    url('../fonts/SegoeUIrwebfont.svg#SegoeUIrwebfont') format('svg');
 }
 
 /*SegoeUI-Semibold-webfont*/
@@ -71,10 +71,10 @@
     font-family: 'SegoeUISemiboldwebfont';
     src: url('../fonts/SegoeUISemiboldwebfont.eot');
     src: url('../fonts/SegoeUISemiboldwebfont.eot') format('embedded-opentype'),
-         url('../fonts/SegoeUISemiboldwebfont.woff2') format('woff2'),
-         url('../fonts/SegoeUISemiboldwebfont.woff') format('woff'),
-         url('../fonts/SegoeUISemiboldwebfont.ttf') format('truetype'),
-         url('../fonts/SegoeUISemiboldwebfont.svg#SegoeUISemiboldwebfont') format('svg');
+    url('../fonts/SegoeUISemiboldwebfont.woff2') format('woff2'),
+    url('../fonts/SegoeUISemiboldwebfont.woff') format('woff'),
+    url('../fonts/SegoeUISemiboldwebfont.ttf') format('truetype'),
+    url('../fonts/SegoeUISemiboldwebfont.svg#SegoeUISemiboldwebfont') format('svg');
 }
 
 /*SegoeUI-Sl-webfont*/  /*segoeUI semilight*/
@@ -82,16 +82,16 @@
     font-family: 'SegoeUISlwebfont';
     src: url('../fonts/SegoeUISlwebfont.eot');
     src: url('../fonts/SegoeUISlwebfont.eot') format('embedded-opentype'),
-         url('../fonts/SegoeUISlwebfont.woff2') format('woff2'),
-         url('../fonts/SegoeUISlwebfont.woff') format('woff'),
-         url('../fonts/SegoeUISlwebfont.ttf') format('truetype'),
-         url('../fonts/SegoeUISlwebfont.svg#SegoeUISlwebfont') format('svg');
+    url('../fonts/SegoeUISlwebfont.woff2') format('woff2'),
+    url('../fonts/SegoeUISlwebfont.woff') format('woff'),
+    url('../fonts/SegoeUISlwebfont.ttf') format('truetype'),
+    url('../fonts/SegoeUISlwebfont.svg#SegoeUISlwebfont') format('svg');
 }
 
 
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -101,9 +101,10 @@ body{
 a, img{
     outline: none;
 }
+a:hover {text-decoration: none}
 
 img{
-	border: none;
+    border: none;
 }
 
 h2{
@@ -112,45 +113,68 @@ h2{
 
 header{
     position: fixed;
-	width: 100%;
-	z-index: 100;
+    width: 100%;
+    z-index: 100;
     overflow: hidden;
     left: 0;
     right: 0;
     top: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 /****** Navigation ******/
+
+.navSmall{
+        display: none;
+}
+
+#popupMenu{
+    display: none;
+}
+
+#popupMenu > ul{
+    display: none;
+}
+
 nav{
-	height: 44px;
-	background-color: #000000;
-	border: solid 1px;
-	border-top-color: #352c24;
-	border-bottom-color: transparent;
+    height: 44px;
+    background-color: #000000;
+    border: solid 1px;
+    border-top-color: #352c24;
+    border-bottom-color: transparent;
+    text-align: center;
 }
 
 nav > ul{
-    margin-left: 17px;
+    /* margin-left: 17px; */
+    display: inline-block;
     padding-top: 16px;
     list-style-type: none;
 }
 
 nav > ul > li{
     float: left;
-	margin-left: 60px;
+    margin-left: 35px;
     height: 29px;
 }
 
+nav > ul > li:first-child{
+    margin-left: 0px;
+}
+
 nav > ul > li > a{
-	text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 12px;
 }
 
 nav > ul > li:hover > a{
-    color: #0082c6;
+    color: #00b6ed;
 }
 
-nav > ul > li > a, 
+nav > ul > li > a,
 nav > ul > li > ul > li > a{
     -webkit-transition: color 0.3s ease-out 0s;
     -moz-transition: color 0.3s ease-out 0s;
@@ -163,13 +187,13 @@ nav > ul > li > ul > li > a{
 }
 
 nav > ul > li > ul > li> a:hover{
-	color: #0082c6;
+    color: #00b6ed;
 }
 
-nav > ul > li:last-child{
-	float: right;
-	margin-right: 79px;
-}
+/* nav > ul > li:last-child{
+    float: right;
+    margin-right: 79px;
+} */
 
 nav > ul > li > ul{
     position: absolute;
@@ -201,12 +225,12 @@ nav > ul > li:hover > ul{
 
 nav > ul > li:last-child:hover > a,
 nav > ul > li:hover > a{
-    color: #0082c6;
+    color: #00b6ed;
 }
 
 nav > ul > li > ul > li{
     display: inline-block;
-    margin-left: 50px; 
+    margin-left: 50px;
     vertical-align: -200%;
     opacity: 0;
 }
@@ -223,9 +247,9 @@ nav > ul > li > ul > li > a{
     font-size: 18px;
 }
 
-nav ul li.active>a {
-    color: #0082c6;
-}
+/*nav ul li.active>a {
+    color: #00b6ed;
+}*/
 
 .logoBlock{
     position: relative;
@@ -249,6 +273,50 @@ nav ul li.active>a {
     margin-top: 35px;
 }
 
+.lang {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 70px;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+.langs {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+.langs a {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding-right: 17px;
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.langs .active a {
+    display: inline-block;
+    background: url("../img/lang_bg.png") no-repeat 100% 50%;
+    opacity: 1;
+}
+.lang:hover {
+    border: 1px solid #000000;
+    top: 34px;
+    right: 69px;
+    background: #ffffff;
+}
+.lang:hover a {
+    display: inline-block;
+    opacity: 1;
+}
+
 /****** Plaza slider ******/
 
 .content{
@@ -266,10 +334,22 @@ nav ul li.active>a {
     text-align: center;
     overflow: hidden;
     display: block;
-    margin-top: 300px;
+    margin-top: 267px;
     background-color: #fff;
     overflow: hidden;
 }
+
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .centreInfo{
+        margin-top: 267px;
+    }
+}
+
+/*@media (min-width: 1600px) and (max-width: 1680px){
+    .centreInfo{
+        margin-top: 250px;
+    }
+}*/
 
 .centreInfoContentWrap{
     margin-top: 68px;
@@ -300,6 +380,7 @@ nav ul li.active>a {
     overflow: hidden;
 }
 
+
 .slideWrap{
     position: relative;
     display: inline-block;
@@ -322,7 +403,7 @@ nav ul li.active>a {
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
-    transition: all 0.5s linear;  
+    transition: all 0.5s linear;
     opacity: 0;
 }
 
@@ -365,9 +446,25 @@ nav ul li.active>a {
 .aboutCompany{
     padding-top: 300px;
     width: 100%;
-    height: 592px;
+    height: 530px;
     background-color: #d9d9d9;
     text-align: center;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .aboutCompany{
+        padding-top: 207px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px){
+    .aboutCompany{
+        padding-top: 250px;
+    }
+}
+
+.aboutCompanyFullPage{
+	padding-top: 267px;
 }
 
 .aboutCompanyColor{
@@ -375,12 +472,12 @@ nav ul li.active>a {
 }
 
 
-.aboutCompanyContent, 
-.structureContent, 
+.aboutCompanyContent,
+.structureContent,
 .freeSpacesContent{
-	width: 100%;
-	text-align: center;
-	display: inline-block;	
+    width: 100%;
+    text-align: center;
+    display: inline-block;
 }
 
 .aboutCompanyContent{
@@ -388,9 +485,9 @@ nav ul li.active>a {
     width: 70%;
 }
 
-.aboutCompanyTitle, 
-.structureTitle, 
-.freeSpacesTitle, 
+.aboutCompanyTitle,
+.structureTitle,
+.freeSpacesTitle,
 .arendatorsTitle,
 .newsTitle,
 .contactsTitle,
@@ -407,7 +504,7 @@ nav ul li.active>a {
 }
 
 .blockContent{
-	margin-top: 90px;
+    margin-top: 90px;
 }
 
 .contentText{
@@ -418,6 +515,9 @@ nav ul li.active>a {
     font-size: 18px;
     line-height: 24px;
 }
+.contentText p {
+    margin-bottom: 15px;
+}
 
 .aboutCompanyText{
     color: #575756;
@@ -427,9 +527,9 @@ nav ul li.active>a {
 /****** Structure ******/
 
 .structureBlock{
-	width: 100%;
+    width: 100%;
     display: block;
-	height: 634px;
+    height: 634px;
 }
 
 .structureTitle{
@@ -438,10 +538,10 @@ nav ul li.active>a {
 }
 
 .structureBlockPic{
-	width: 50%;
-	float: left;
-	display: inline-block;
-	height: inherit;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    height: inherit;
 }
 
 .structureBlockPic > img{
@@ -452,11 +552,11 @@ nav ul li.active>a {
 }
 
 .infoBlock{
-	display: inline-block;
-	background-color: #ffffff;
-	height: inherit;
-	width: 50%;
-	text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    height: inherit;
+    width: 50%;
+    text-align: center;
 }
 
 sup{
@@ -464,18 +564,18 @@ sup{
 }
 
 hr{
-	width: 31.25%;
-	color: #808080;
-	margin: 39px auto;	
+    width: 31.25%;
+    color: #808080;
+    margin: 39px auto;
 }
 
 
 .detailsBtn, .contactsBtn{
-    height: 56px;
-    width: 203px;
+    height: 58px;
+    width: 205px;
     text-align: center;
     background-color: #000000;
-    border: 2px solid #686868;
+    border: 1px solid #686868;
     color: #ffffff;
     font-family: "SegoeUILightwebfont";
     font-size: 21px;
@@ -483,6 +583,9 @@ hr{
     display: block;
     line-height: 50px;
     text-decoration: none;
+}
+.modal .detailsBtn {
+    margin: 0 auto;
 }
 
 .detailsBtn:hover{
@@ -493,23 +596,23 @@ hr{
 /****** Free spaces ******/
 
 .freeSpacesBlock{
-	height: 634px;
-	width: 100%;
+    height: 634px;
+    width: 100%;
     display: block;
     overflow: hidden;
 }
 
 .freeSpacesTitle{
-    margin-top: 118px; 
+    margin-top: 118px;
     margin-left: -1px;
     color: #000000;
 }
 
 .freeSpacesBlockPic{
-	width: 50%;
-	float: right;
-	display: inline-block;
-	height: inherit;
+    width: 50%;
+    float: right;
+    display: inline-block;
+    height: inherit;
 }
 
 .freeSpacesBlockPic > img{
@@ -517,12 +620,19 @@ hr{
 }
 
 .freeSpacesContent{
-    margin-top: 5px; 
+    margin-top: 5px;
     margin-right: 2px;
 }
 
 .freeSpacesDetailsBtn{
     margin-top: 52px;
+}
+
+
+.structureBlockPic > img,
+.freeSpacesBlockPic > img{
+	width: 100%;
+	height: 100%;
 }
 
 /*******  gallery slider *******/
@@ -535,10 +645,26 @@ hr{
     overflow: hidden;
 }
 
+
+/*.galleryWrap{
+        height: 100%;
+    }
+
+    .gallerySliderLi{
+        height: 100%;
+    }
+
+    .gallerySliderLi > img{
+        width: 100%;
+        height: 100%;
+    }*/
+
+
 .galleryWrap{
     position: relative;
     display: block;
-    width: 100%;    
+    width: 100%;
+    height: 100%;
 }
 
 #gallerySlider{
@@ -553,11 +679,17 @@ hr{
     left: 0;
     right: 0;
     margin: auto;
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    transition: all 0.5s linear;  
+    -webkit-transition: all 0.3s cubic-bezier(.49,.61,.09,.50);
+    -moz-transition: all 0.3s cubic-bezier(.49,.61,.09,.50);
+    -o-transition: all 0.3s cubic-bezier(.49,.61,.09,.50);
+    transition: all 0.3s cubic-bezier(.49,.61,.09,.50);
     opacity: 0;
+    height: 100%;
+}
+
+.gallerySliderLi > img{
+    width: 100%;
+    height: 100%;
 }
 
 .gallerySliderLi:first-child{
@@ -568,8 +700,8 @@ hr{
     position: relative;
     height: inherit;
     width: inherit;
-/*    top: 0;
-    left: 0;*/
+    /*    top: 0;
+        left: 0;*/
 }
 
 #slLeft, #slRight{
@@ -579,6 +711,7 @@ hr{
     width: 100px;
     height: 1100px;
     cursor: pointer;
+    background: rgba(0,0,0,0.3);
 }
 
 #slLeft{
@@ -614,7 +747,7 @@ hr{
     margin: 113px auto;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .opServicesWrap{
         width: 85%;
     }
@@ -636,7 +769,7 @@ hr{
     margin-top: 20px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .opServicesListLi{
         width: 500px;
     }
@@ -651,18 +784,17 @@ hr{
 }
 
 .innerTitle{
-    text-align: justify;
+    text-align: left;
     margin-top: 0px;
     line-height: 46px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .innerTitle{
         line-height: 34px;
         font-size: 36px;
     }
 }
-
 
 .opServicesInfo{
     margin-top: 22px;
@@ -674,7 +806,7 @@ hr{
 
 .tenantBook{
     width: 100%;
-    margin-top: 300px;
+    margin-top: 267px;
     text-align: center;
 }
 
@@ -704,7 +836,7 @@ hr{
 .formsListLi{
     display: inline;
     float: left;
-    margin-left: 73px;
+    margin-left: 30px/*73px*/;
 }
 
 .formsListLi:first-child{
@@ -721,14 +853,22 @@ hr{
     width: 100px;
     height: 144px;
     background-position: -175px;
+    margin: 0 auto;
+}
+
+.formsPic2{
+    background-image: url(../img/formsPic2.png);
+    width: 100px;
+    height: 144px;
+    background-position: -175px;
 }
 
 
-.formsListLi:hover .formsListTitle{
+.formsListLi:hover .formsListTitle, .formsListLi:hover .smallest{
     color: #009fe3;
 }
 
-.formsListLi:hover .formsPic{
+.formsListLi:hover .formsPic, .formsListLi:hover .formsPic2{
     background-position: 0px;
 }
 
@@ -738,7 +878,15 @@ hr{
     font-family: "SegoeUILightwebfont";
     color: #706f6f;
     margin-top: 25px;
+    /*margin-bottom: 48px;*/
+}
+.formsListLi .smallest {
+    font-family: "SegoeUILightwebfont";
+    font-size: 10px;
+    text-transform: uppercase;
     margin-bottom: 48px;
+    width: 132px;
+    color: #706f6f;
 }
 
 .workRequest{
@@ -767,7 +915,18 @@ hr{
     width: 100%;
     background-color: #ffffff;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 267px;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .arendators{
+        position: relative;
+        height: 800px;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+        padding-top: 258px;
+    }
 }
 
 .arendatorsTitle{
@@ -853,6 +1012,12 @@ hr{
     background-color: #d0d0d0;
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .news{
+        padding-top: 207px;
+    }
+}
+
 .newsBanner{
     position: relative;
     display: inline-block;
@@ -866,6 +1031,10 @@ hr{
     display: block;
     /*height: 635px;*/
     width: 92.1875%;
+}
+
+.newsAboutPage{
+	padding-top: 68px;
 }
 
 .contentPic{
@@ -884,7 +1053,46 @@ hr{
     text-align: center;
     margin-left: 170px;
 }
+.contentInfo2{
+    position: relative;
+    display: inline-block;
+    height: inherit;
+    text-align: center;
+    /*margin-left: 170px;*/
+}
+.contentNewsText{
+    position: relative;
+    display: inline-block;
+    height: inherit;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    margin-bottom: 50px;
+}
 
+/*@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .contentInfo{
+       width: 430px;
+       margin-left: 75px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .contentInfo{
+       width: 472px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .contentPic, .contentPic > img{
+        width: 642px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .contentPic, .contentPic > img{
+        width: 842px;
+    }
+}*/
 .title{
     display: inline-block;
     margin-top: 38px;
@@ -892,7 +1100,7 @@ hr{
     line-height: 42px;
     font-family: "SegoeUILightwebfont";
     font-weight: normal;
-    color: #0082c6;
+    color: #00b6ed;
     text-align: center;
 }
 
@@ -912,6 +1120,15 @@ hr{
     line-height: 36px;
 }
 
+.contentNewsText .info {
+    text-align: justify;
+}
+
+.newsMainPage{
+    padding-top: 0px;
+    background: #ffffff;
+    margin-top: 258px;
+}
 .newsFullPage{
     padding-top: 0px;
 }
@@ -924,6 +1141,9 @@ hr{
     width: 100%;
     position: relative;
 }
+.showMoreNews + .newsOuterWrap {
+    display: none;
+}
 
 .newsTitle{
     display: inline-block;
@@ -933,7 +1153,7 @@ hr{
 .newsBlockWrap{
     display: inline-block;
     position: relative;
-    margin: 47px auto;
+    margin: 75px auto;
 }
 
 .newsBlock{
@@ -951,13 +1171,13 @@ hr{
 .newsDate{
     font-family: "SegoeUILightwebfont";
     font-size: 36px;
-    color: #000000;
+    color: #00b6ed;
     text-align: left;
     margin-top: 20px;
 }
 
 .aboutCompanyNewsDate{
-    color: #0082c6;
+    color: #00b6ed;
 }
 
 .newsDesc{
@@ -970,6 +1190,19 @@ hr{
     padding-bottom: 28px;
 }
 
+/*@media screen and (max-width: 1680px){
+    .newsDesc{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .newsDesc{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}*/
 
 .newsInfo{
     text-align: justify;
@@ -992,24 +1225,25 @@ hr{
 }
 
 .newsDetails:hover{
-	color: #000000;
+    color: #000000;
 }
 
 .newsBtnWrap{
     text-align: center;
     margin-top: 640px;
+    margin-bottom: 100px;
 }
 
 .aboutCompanyBtnWrap{
-    margin-top: 470px;
+    margin-top: 0px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+/* @media screen and (min-width: 1200px) and (max-width: 1536px){
     .aboutCompanyBtnWrap{
         margin-top: 570px;
     }
 }
-
+ */
 
 /***** Contacts *****/
 
@@ -1023,23 +1257,41 @@ hr{
     background-color: #d0d0d0;
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .contacts{
+        padding-top: 207px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px){
+    .contacts{
+        padding-top: 250px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px){
+    .contacts{
+        padding-top: 250px;
+    }
+}
+
 .contactsFullPage{
     background-color: #fff;
 }
 
 .formBlock{
-	float: left;
-	display: inline-block;
+    float: left;
+    display: inline-block;
     margin-left: 236px;
-    margin-top: 177px;
-	width: 782px;
-	height: 460px;
+    margin-top: 77px;
+    width: 782px;
+    height: 460px;
 }
 
 .formName{
-	font-family: "SegoeUILightwebfont";
-	font-size: 24px;
-	color: #000000;
+    font-family: "SegoeUILightwebfont";
+    font-size: 24px;
+    color: #000000;
     text-align: left;
 }
 
@@ -1049,33 +1301,33 @@ hr{
     height: 1100px;
 }
 
-input[type="text"]{
-	border: solid 1px #7e8189;
-	background: #ffffff !important;
-	outline: none;
-	height: 51px;
-	width: 758px;
-	display: block;
-	float: left;
-	margin-top: 13px;
-	font-family: "SegoeUIrwebfont";
-	font-size: 18px;
-	padding-left: 22px;
+.contacts input[type="text"], .contacts input[type="email"], .sendRequestFormWrap input[type="text"], .sendRequestFormWrap input[type="email"]{
+    border: solid 1px #7e8189;
+    background: #ffffff !important;
+    outline: none;
+    height: 51px;
+    width: 758px;
+    display: block;
+    float: left;
+    margin-top: 13px;
+    font-family: "SegoeUIrwebfont";
+    font-size: 18px;
+    padding-left: 22px;
 }
 
-textarea{
-	border: solid 1px #7e8189;
-	background: #ffffff !important;
-	outline: none;
-	width: 758px;
+.contacts textarea, .sendRequestFormWrap textarea{
+    border: solid 1px #7e8189;
+    background: #ffffff !important;
+    outline: none;
+    width: 758px;
     height: 154px;
     display: block;
     float: left;
     margin-top: 11px;
-	font-family: "SegoeUIrwebfont";
-	font-size: 18px;
-	padding-left: 22px;
-	padding-top: 12px;
+    font-family: "SegoeUIrwebfont";
+    font-size: 18px;
+    padding-left: 22px;
+    padding-top: 12px;
 }
 
 .inputName{
@@ -1083,13 +1335,13 @@ textarea{
 }
 
 .inputMail{
-    margin-top: 12px;  
+    margin-top: 12px;
 }
 button.inputBtn{
-    height: 57px;
-    width: 203px;
+    height: 59px;
+    width: 205px;
     background-color: transparent;
-    border: 2px solid #686868;
+    border: 1px solid #686868;
     font-size: 21px;
     font-family: "SegoeUILightwebfont";
     float: right;
@@ -1100,30 +1352,42 @@ button.inputBtn{
 }
 
 .contactDetails{
-    float: right;
-	display: inline-block;
-    margin-right: 236px;
-    margin-top: 169px;
-	width: 420px;
-	height: 448px;
-	text-align: center;
+    /*float: right;*//*kill*/
+
+    display: inline-block;
+
+    /*kill*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-right: 236px;*/
+    margin-top: 69px;
+    width: 420px;
+    height: 448px;
+    text-align: center;
+}
+
+.contactsFullPage{
+	padding-top: 267px;
 }
 
 .contactDetailsText{
-	text-align: center;
-	font-family: "SegoeUILightwebfont";
-	color: #000000;
-	font-size: 24px;
-	line-height: 48px;
+    text-align: center;
+    font-family: "SegoeUILightwebfont";
+    color: #000000;
+    font-size: 24px;
+    line-height: 48px;
+}
+.contactDetailsText a{
+    color: inherit;
 }
 
 .mapLink{
-	font-family: "SegoeUILightwebfont";
-	display: inline-block;
-	font-size: 18px;
-	color: #3c3c3b;
-	font-size: 24px;
-	margin-top: 30px;
+    font-family: "SegoeUILightwebfont";
+    display: inline-block;
+    font-size: 18px;
+    color: #00b6ed;
+    font-size: 24px;
+    margin-top: 30px;
 }
 
 .mapLink:hover{
@@ -1131,14 +1395,14 @@ button.inputBtn{
 }
 
 .schemeNav{
-    display: inline-block; 
-    margin: 50px auto; 
-    width: inherit; 
+    display: inline-block;
+    margin: 50px auto;
+    width: inherit;
 }
 
 
 .contactsBtn{
-	margin: 15px auto;
+    margin: 15px auto;
     height: 57px;
     width: 296px;
 }
@@ -1148,13 +1412,13 @@ button.inputBtn{
 }
 
 .contactsBtnText{
-	margin-top: 13px;	
+    margin-top: 13px;
 }
 
-.inputBtn, 
-.contactsBtn, 
+.inputBtn,
+.contactsBtn,
 .detailsBtn{
-	-webkit-transition: all 0.7s ease-out 0s;
+    -webkit-transition: all 0.7s ease-out 0s;
     -moz-transition: all 0.7s ease-out 0s;
     -o-transition: all 0.7s ease-out 0s;
     transition: all 0.7s ease-out 0s;
@@ -1162,35 +1426,35 @@ button.inputBtn{
 }
 
 .inputBtn:hover, .contactsBtn:hover{
-	background-color: #ffffff;
-	color: #000000;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 footer{
-	width: 100%;
-	height: 56px;
-	background-color: #000000;
-	text-align: center;
+    width: 100%;
+    height: 56px;
+    background-color: #000000;
+    text-align: center;
 }
 
 .siteDesign{
-	display: inline-block;
-	font-family: "SegoeUILightwebfont";
-	color: #575756;
-	font-size: 18px;
+    display: inline-block;
+    font-family: "SegoeUILightwebfont";
+    color: #575756;
+    font-size: 18px;
     margin-top: 14px;
     margin-left: 2px;
 }
 
 .author{
-	font-family: "SegoeUILightwebfont";
-	color: #575756;
-	font-size: 18px;
-	text-decoration: none;
+    font-family: "SegoeUILightwebfont";
+    color: #575756;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .author:hover{
-	color: #ffffff;
+    color: #ffffff;
 }
 
 
@@ -1203,34 +1467,84 @@ footer{
     }
 
     nav > ul{
-        margin-left: 3px;
+        /* margin-left: 78px; */
+        padding-top: 0px;
+        margin-top: 12px;
     }
 
     nav > ul > li{
-        margin-left: 60px;
-    }
-    
-    nav > ul > li:last-child{
-        margin-right: 65px;
+        margin-left: 50px;
     }
 
+    nav > ul > li:first-child{
+        margin-left: 0px;
+    }
+
+    
     nav > ul > li > a{
         letter-spacing: -0.03em;
+        font-size: 11px;
     }
 
     .logo{
-        margin-left: 63px;
+        margin-left: 78px;
     }
-
+	
+	.slideWrap > ul > li > img{
+		width: 100%;
+	}
     .aboutCompanyContent{
         width: 1317px;
     }
+	
+	.structureBlock,
+    .freeSpacesBlock{
+		height: 550px;
+	}
+		
+	.structureTitle,
+	.freeSpacesTitle{
+		margin-top: 80px;
+	}
+
+	.structureBlock > .infoBlock > hr,
+	.freeSpacesBlock > .infoBlock > hr{
+		margin: 37px auto auto auto;
+	}
+
+	.structureContent,
+	.freeSpacesContent{
+		margin-top: 40px;
+	}
+
+	.structureBlock > .infoBlock > .detailsBtn{
+		margin-top: 36px;
+	}
+
+	.freeSpacesBlock > .infoBlock > .detailsBtn{
+		margin-top: 50px;
+	}	
+
+	.gallery{
+	    height: 954px;
+	}
+
     .galleryWrap{
-        width: 100%;
+        height: 100%;
     }
+
+    .gallerySliderLi{
+        height: 100%;
+    }
+
     .gallerySliderLi > img{
-        margin: 0 auto;
+        width: 100%;
+        height: 100%;
     }
+
+    .slNavigation{
+		top: -73px;
+	}
 
     .arendatorSliderLi{
         margin-right: 40px;
@@ -1241,7 +1555,7 @@ footer{
         position: relative;
         margin: 36px auto;
     }
-    
+
     .newsBlock{
         width: 460px;
         display: inline-block;
@@ -1269,7 +1583,9 @@ footer{
     }
 
     .contactDetails{
-        margin-right: 153px;
+
+        /*kill
+        margin-right: 153px;*/
     }
 
     .schemeNav{
@@ -1280,44 +1596,109 @@ footer{
 
 
 /*1260 resolution*/
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     header, .content, footer, .contacts{
         width: 100%;
         max-width: 1680px;
     }
 
     nav > ul{
-        margin-left: 10px;
+        /* margin-left: 78px; */
+        padding-top: 0px;
+        margin-top: 12px;
     }
 
     nav > ul > li{
-        margin-left: 23px;
+        margin-left: 28px;
     }
 
-    nav > ul > li:last-child{
-        margin-right: 37px;
+    nav > ul > li:first-child{
+        margin-left: 0px;
     }
 
     nav > ul > li > a{
         letter-spacing: -0.03em;
+        font-size: 10px;
     }
 
-    .logo{
-        margin-left: 33px;
+    .sliderAndArrowWrap{
+    	height: 724px;
     }
+
+    .slideWrap > ul > li > img{
+		width: 100%;
+	}
+
+    .structureBlock,
+    .freeSpacesBlock{
+		height: 423px;
+	}
+
+	.structureTitle,
+	.freeSpacesTitle{
+		margin-top: 55px;
+	}
+
+	.structureBlock > .infoBlock > hr,
+	.freeSpacesBlock > .infoBlock > hr{
+		margin: 14px auto auto auto;
+	}
+
+	.structureContent,
+	.freeSpacesContent{
+		margin-top: 22px;
+	}
+
+	.structureBlock > .infoBlock > .detailsBtn{
+		margin-top: 7px;
+	}
+
+	.freeSpacesBlock > .infoBlock > .detailsBtn{
+		margin-top: 36px;
+	}
 
     .aboutCompanyContent{
         width: 1000px;
     }
+	
+	.gallery{
+	    height: 733px;
+	}
 
     .galleryWrap{
-        width: 100%;        
+        height: 100%;
+    }
+
+    .gallerySliderLi{
+        height: 100%;
+    }
+
+	.gallerySliderLi > img{
+		width: 100%;
+        height: 100%;
+	}
+
+	.slNavigation{
+		top: -184px;
+	}
+
+    .arendators{
+        height: 620px;
+    }
+
+    .arendatorsSlideWrap {
+        padding-top: 45px;
+    }
+
+    .arendatorsList{
+      height: 200px;
     }
 
     .arendLogo{
-        margin-left: -30px;
+        margin-left: -35px;
         display: inline-block;
-        transform: scale(0.7822, 0.7822);
+        transform: scale(0.70, 0.70);
+        margin-top: 59px;
     }
 
     .arendLogo:first-child{
@@ -1377,7 +1758,7 @@ footer{
 
 @media screen and (min-width: 1600px) and (max-width: 1680px){
     .contentInfo{
-       width: 472px;
+        width: 472px;
     }
 }
 
@@ -1388,20 +1769,20 @@ footer{
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .contentInfo{
-       width: 430px;
-       margin-left: 75px;
+        width: 430px;
+        margin-left: 75px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .contentPic, .contentPic > img{
         width: 610px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .newsDesc{
         font-size: 24px;
         line-height: 24px;
@@ -1411,7 +1792,7 @@ footer{
 
 /*-----------------------------------------*/
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .line{
         margin: 20px auto 10px auto;
     }
@@ -1439,7 +1820,7 @@ footer{
     }
 
     .info{
-       line-height: 30px;
+        line-height: 30px;
     }
 
     .detailsBtnScreenResize{
@@ -1451,18 +1832,39 @@ footer{
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .newsBtnSmallRes{
-       margin-top: 21px !important; 
+        margin-top: 21px !important;
     }
 }
+
+
+nav>ul>li.active>a {
+    color: #00b6ed;
+    text-decoration: none !important;
+}
+nav ul li a {
+    text-decoration: none !important;
+}
+.map_holder {margin: 120px 0 -230px 0}
+
+.modal * {
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box
+}
+.modal *::before {
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box
+}
+.modal *::after {
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box
+}
+
 
 /*--------------new styles------------------------*/
 
 .avSpaces{
     display: block;
     width: 100%;
-   /* height: 1710px;*/
+    /* height: 1710px;*/
     background-color: #ffffff;
 }
 
@@ -1484,7 +1886,7 @@ footer{
     display: inline-block;
     float: left;
     text-align: center;
-    
+
 }
 
 .optionsWrap{
@@ -1507,7 +1909,7 @@ footer{
     height: 59px;
     width: 205px;
     text-align: center;
-    background-color: #0082c6;
+    background-color: #00b6ed;
     color: #ffffff;
     font-family: "SegoeUILightwebfont";
     font-size: 21px;
@@ -1526,8 +1928,9 @@ footer{
 }
 
 .floorsList, .spacesList{
+    position: absolute;
     width: 203px;
-    display: none;
+    display: block;
     margin-top: 15px;
     list-style-type: none;
     border: 1px solid #808080;
@@ -1580,6 +1983,20 @@ footer{
     line-height: 48px;
 }
 
+.inputCustomValue{
+    display: none;
+    line-height: 47px;
+    height: 45px;
+    color: #000000;    
+    width: 120px;
+    outline: none;
+    font-family: "SegoeUILightwebfont";
+    font-size: 40px;
+    /*padding-left: 22px;*/
+    text-align: center;
+
+}
+
 .valuesSeparator{
     width: 100%;
     color: #7f7f7f;
@@ -1599,10 +2016,11 @@ footer{
     margin-right: 6.7708%;
 }
 
-.floorPlanPic{ 
+.floorPlanPic{
     float: right;
     margin-top: 130px;
     margin-bottom: 146px;
+    width: 1000px;
 }
 
 .summary{
@@ -1644,11 +2062,10 @@ footer{
     margin: 0 auto;
     width: 784px;
 }
-
 .sendRequestTitle{
     text-align: center;
     display: block;
-    padding-top: 285px;
+    padding-top: 235px;
     margin: 0;
     color: #000000;
     margin-bottom: 190px;
@@ -1659,14 +2076,25 @@ footer{
     height: 185px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1536px){
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .sendRequestTitle{
+        margin: 0 0 120px;
+        padding-top: 175px;
+    }
+    .sendRequestFormWrap{
+        height: 910px;
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1536px){
     .optionsWrap{
         margin-left: 180px;
     }
 
     .spacesOptions{
-        margin-left: 130px;
-        margin-right: 75px;
+        margin-left: 80px;
+		margin-right: 0px;
     }
 
     .planWrap{
@@ -1677,33 +2105,42 @@ footer{
     }
 
     .summary {
-        margin-top: 175px;
-        display: inline;
-        height: 320px;
-        float: left;
-        width: 300px;
-        margin-left: 50px;
-    }
+	    margin-top: 150px;
+	    margin-left: 50px;
+	    display: inline-block;
+	    height: auto;
+	    width: auto;	    
+	    float: none;	    
+	}
 
     .summary > p{
         font-size: 20px;
     }
 
-    .listWrap{
-        top: -360px;
-        left: 80px;
-        display: block;
-        transform: scale(0.7822, 0.7822);
-        position: relative;
-    }
+    .listWrap {
+	    display: block;
+	    position: relative;	    
+	}
 
     .sendRequestForm{
         margin: 0 auto;
         width: 592px;
     }
+
+    .floorsPicList {
+	    position: relative;
+	    float: right;
+	    margin-right: 50px;
+	}
+
+	.floorPlanPic{
+		float: none;
+		width: 830px;		
+	}
 }
 
 
+ 
 @media screen and (min-width: 1600px) and (max-width: 1680px){
 
     .optionsWrap{
@@ -1713,11 +2150,1462 @@ footer{
     .planWrap {
         margin-left: 125px;
         margin-right: 125px;
-    }   
+    }
 
     .listWrap{
         left: 80px;
         display: block;
         position: relative;
     }
+}
+
+
+.restourants{
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*height: 800px;*/
+    padding-top: 267px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.parking{
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*height: 800px;*/
+    padding-top: 300px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.park_wrap {
+    width: 1500px;
+    min-width: 1150px;
+    margin: 80px auto 80px auto;
+}
+.park_wrap::after{
+    clear: both; display: block; content: " ";
+}
+
+.park_left {
+    float: left;
+    width: 590px;
+}
+.park_right {
+    float: right;
+    width: 590px;
+}
+
+.parking h3 {
+    font-size: 48px;
+    font-family: "SegoeUILightwebfont";
+    font-weight: normal;
+    text-align: left;
+    line-height: 50px;
+}
+.park_right h3 {
+    width: 450px;
+}
+.parking .info {
+    font-family: "SegoeUILightwebfont";
+    font-size: 18px;
+    margin: 20px 0 85px 0;
+    text-align: left;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1536px){
+    .park_left {
+        padding-left: 40px;
+        width: 560px;
+    }
+    .park_left .info{
+        margin-left: 30px;
+    }
+    .park_left h3, .park_right h3 {
+        font-size: 40px !important;
+    }
+    .park_left h3 {
+        margin-left: 30px;
+    }
+    .park_left img{
+        width: 500px;
+        height: auto;
+    }
+    .park_right img {
+        width: 500px;
+        height: auto;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px){
+    .park_wrap {
+        width: 1500px;
+        min-width: 1150px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1536px){
+    .park_wrap {
+        width: 100%;
+        min-width: 1150px;
+    }
+}
+
+.location{
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*height: 800px;*/
+    padding-top: 250px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.location_wrap::after{
+    clear: both; display: block; content: " ";
+}
+
+.location_wrap {
+    width: 1500px;
+    margin: 80px auto;
+}
+
+.location_wrap .text {
+    width: 590px;
+    font-family: "SegoeUILightwebfont";
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    text-align: justify;
+}
+.location_wrap .text p {
+    margin-bottom: 15px;
+}
+
+.location_wrap img {
+    float: right;
+    height: auto;
+}
+.location_wrap .links {
+    width: 400px;
+    margin-top: 200px;
+}
+.location_wrap .links .mapLink {
+    color: #00b6ed;
+    text-decoration: underline;
+}
+.location_wrap .links .schemeNav{
+    display: inline-block;
+    margin: 20px auto;
+    width: 296px;
+}
+
+
+@media (min-width: 1600px) and (max-width: 1680px){
+    .location_wrap {
+        width: 1500px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1536px){
+    .location_wrap {
+        width: 100%;
+        min-width: 1150px;
+    }
+    .location_wrap .text {
+        width: 40%;
+        margin-left: 7%;
+    }
+    .location_wrap img {
+        width: 45%;
+        margin-right: 2%;
+    }
+}
+
+.error {border-color: #ff2222 !important;}
+
+.up {
+    position: fixed;
+    background: url("../img/up.png");
+    width: 59px;
+    height: 58px;
+    bottom: 56px;
+    left: 100%;
+    margin-left: -65px;
+    display: none;
+}
+
+.row {
+    position: relative;
+}
+.row::after {
+    content: " ";
+    clear: both;
+}
+
+.col-md-6 {
+    float: left;
+    width: 50%;
+}
+.col-md-4 {
+    /*float: left;
+    width: 33.3%;*/
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.col-md-8 {
+    /*float: left;
+    width: 66%;*/
+}
+
+.form_form {
+    color: #00b6ed;
+    background: url("../img/form_bg.png") 0 0 no-repeat;
+    height: 49px;
+    line-height: 49px; padding-left: 50px;
+    display: block;
+}
+
+
+/*----------768px---------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+
+    nav{
+        height: 24px;
+    }
+
+    nav > ul{
+        padding-top: 0px;
+        line-height: 19px;
+    }
+
+    nav > ul > li > a{        
+        font-size: 7px;
+    }
+
+    nav > ul > li{
+        margin-left: 12px;
+        height: inherit;
+    }
+
+    nav > ul > li:hover > ul{
+        height: 55px;
+    }
+
+    nav > ul > li > ul{
+        margin: 4px auto;
+    }
+
+    nav > ul > li > ul > li {
+        vertical-align: 0;
+        margin-top: 14px;
+    }
+
+
+    nav > ul > li > ul > li > a {
+        font-size: 12px;
+    }   
+
+    .logoBlock{
+        height: 55px;
+    }
+
+    .logo{
+        margin-left: 30px;
+        transform: scale(0.57, 0.57);
+        margin-top: -3px;
+    }
+
+    .name{
+        transform: scale(0.55, 0.55);
+        margin-top: 10px;
+    }
+
+    .lang{
+        top: 14px;
+        right: 26px;
+    }
+
+    .item-lang > a{
+        font-size: 10px;
+    }
+
+    .sliderAndArrowWrap{
+        height: 420px;
+    }
+
+    .sliderLi > img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #sliderBullits {
+        bottom: 35px;
+    }
+
+    .bullits{
+        width: 8px;
+        height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+        
+    .arrowDown{
+        height: 32px;
+        bottom: 10px;
+    }
+
+    .arrowDown > a > img{
+        transform: scale(0.54, 0.54);
+    }
+
+    .aboutCompany {
+        padding-top: 84px;        
+        height: 395px;
+    }
+
+    .aboutCompanyTitle,
+    .structureTitle,
+    .freeSpacesTitle,
+    .arendatorsTitle,
+    .newsTitle,
+    .contactsTitle,
+    .centreInfoTitle,
+    .opServicesTitle,
+    .tenantTitle{
+        font-size: 24px;
+    }
+
+    .aboutCompanyContent{
+        margin-top: 42px;
+    }
+
+    .contentText{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .structureBlock, .freeSpacesBlock{
+        height: 384px;
+    }
+
+    .structureTitle, .freeSpacesTitle{
+        margin-top: 86px;
+    }
+
+    .freeSpacesContent {
+	    width: 90%;
+	}
+
+    hr {
+	    margin: 20px auto;
+	}
+
+	.detailsBtn{
+	    height: 29px;
+	    width: 104px;
+	    font-size: 11px;
+	    margin: 41px auto;
+	    line-height: 27px;
+	}
+
+	.freeSpacesBlockPic > img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .gallery{
+    	height: 440px;
+    }
+	
+	#slRight, #slLeft{
+		height: 440px;
+		width: 40px;
+	}
+
+    #slRight > img, #slLeft > img{
+		height: 100%;
+    }
+
+    .arendators{
+    	height: 407px;
+    	padding-top: 83px;
+    }
+
+    .arendLogo {
+	    display: inline-block;
+	    max-width: 148px;
+	    margin-top: 0px;
+	}
+	
+	.arendLogo > a > img{
+		transform: scale(0.42, 0.42);
+		margin: 0px 0px 0px -80px;
+	}
+
+	.arendLogo > a{
+		display: block;
+		height: 120px;
+		width: 105px;
+		/* margin-top: -10px; */
+	}
+
+	.arendatorsSlideWrap {
+	    height: 408px;
+	    padding-top: 0px;
+	}
+
+	.arendatorsList{
+		height: 120px;
+	}
+
+	.news{
+		padding-top: 70px;
+	}
+
+	.newsDate{
+		font-size: 21px;
+		/* margin-top: 0px; */
+	}
+
+	.newsInfo{
+		font-size: 12px;
+	}
+	
+	.newsBlock {
+	    width: 215px;
+	    margin-left: 35px;
+	    margin-top: 15px;
+	}
+
+	.newsBlockWrap{
+		margin: auto;
+	}
+
+	.newsOuterWrap {
+	    margin-bottom: 25px;
+	}
+
+	.newsDetails {
+	    font-size: 12px;
+	}
+
+	.portOrMargin{
+		margin: 0px auto;
+	}
+
+	.contacts {
+	    padding-top: 83px;
+	    height: 515px;
+	}
+	
+	.contactDetails {
+	    margin-top: 60px;
+	    height: auto;
+	}
+
+	.contactDetailsText {
+	    font-size: 12px;
+	    line-height: 25px;
+	}
+
+	.mapLink {
+	    font-size: 12px;
+	    margin-top: 30px;
+	}
+
+	footer {
+	    height: 23px;
+	}
+
+	.author {
+	    font-size: 10px;	
+	}
+
+	.siteDesign {
+	    font-size: 10px;
+	    margin-top: 0px;
+	}
+
+	.centreInfo {
+	    height: auto;
+	    margin-top: 137px;
+	}
+
+	.centreInfoContentWrap {
+	    margin-top: 36px;
+	    margin-bottom: 30px;
+	    height: auto;
+	}
+
+	.centreInfoContent {
+	    padding-left: 17%;
+	    padding-right: 17%;
+	}
+
+	.backgroundLogo {
+	    left: -370px;
+	    top: -32px;
+	    transform: scale(0.40, 0.40);
+	}
+
+	.location{
+		padding-top: 60px;
+	}
+
+	.location_wrap{
+		width: 100%;
+		margin: 45px auto 30px auto;
+	}
+
+	.location_wrap .text{
+		width: 30%;
+		margin-left: 63px;
+		margin-top: 40px;
+		font-size: 12px;
+	}
+
+	.location_wrap .links {
+	    width: 100%;
+	    margin-top: 15px;
+	}
+
+	.location_wrap .links a{
+	    display: inline-block;
+	}
+	
+	.location_wrap .links .schemeNav {
+	    width: 100%;
+	}
+
+	.location_wrap > img{
+		height: 287px;
+		margin-right: 60px;
+	}
+	
+	.opServices {
+	    height: auto;
+	    padding-top: 15px;
+	    padding-bottom: 41px;
+	}
+
+	.opServicesTitle{
+		margin-top: 45px;
+	}
+
+	.innerTitle {
+	    line-height: 1em;
+	}
+
+	.opServicesWrap {
+	    width: 84%;
+	    margin: auto;
+	}
+
+	.opServicesListLi {
+	    width: 295px;
+	}
+
+	.parking{
+		padding-top: 60px;
+	}
+
+	.park_wrap {
+	    width: 768px;
+	    min-width: 700px;
+	    margin: 45px auto 45px auto;
+	}
+
+	.park_left, .park_right{
+		width: 295px;
+		margin-left: 60px;
+		float: left;
+	}
+
+	.park_left img, .park_right img{
+		height: 105px;
+		float: left;
+	}
+
+	.parking h3{
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	.park_right h3 {
+	    width: auto;
+	}
+
+	.park_right img{
+		margin-top: -15px;
+	}
+
+	.parking .info{
+		font-size: 12px;
+		line-height: 16px;
+		margin: 20px 0 60px 0;
+	}
+
+	.newsMainPage{
+		margin-top: 60px;
+	}
+
+	.newsDesc{
+		display: none;
+	}
+	
+	.contactSmall{
+		height: auto;
+	}
+
+	.contactsFullPage{
+		padding-top: 130px;
+	}
+
+	.contactsMap{
+		height: 440px;
+	}
+
+	.contactsBtn{
+		width: 150px;
+		margin: 6px auto;
+	}
+
+	.schemeNav {
+	    margin: 30px auto;
+	}
+
+	.up{
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+	
+
+	/*------ main page and navigation styles ------*/
+	
+	header{
+		overflow: visible;
+	}
+
+	nav{
+		display: none;
+	}
+
+    #navSmall{
+        display: block;
+        width: 100%;
+        height: 38px;
+        background-color: #000000;
+        border: solid 1px;
+        border-top-color: #352c24;
+        border-bottom-color: transparent;
+        text-align: center;
+        cursor: pointer;        
+    }
+
+    #nav-toggle{
+        display: inline-block;
+        height: 20px;
+        width: 53px;
+        margin-top: 18px;        
+    }
+
+    #nav-toggle > span{
+        position: absolute;
+        display: block;
+        height: 2px;
+        width: 53px;
+        background-color: #00b6ed;
+        content: '';
+        cursor: pointer;
+    }
+    
+    #nav-toggle > span:before,
+    #nav-toggle > span:after{
+        position: absolute;
+        display: block;
+        height: 1px;
+        width: 51px;
+        background-color: #00b6ed;
+        border: 1px solid #005b77;
+        content: '';
+        cursor: pointer;
+    }
+
+    #nav-toggle > span:before{
+        top: -9px;
+    }
+
+    #nav-toggle > span:after{
+        bottom: -9px;
+    }
+
+    #popupMenu{
+        width: 320px;
+        height: auto;
+        position: absolute;
+        z-index: 9999;
+        background-color: #000000;       
+    }
+
+    #popupMenu > ul{
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 35px;
+        list-style-type: none;
+    }
+
+    #popupMenu > ul > li > a,
+    #popupMenu > ul > li > ul > li > a{
+        font-size: 14px;
+        line-height: 36px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    #popupMenu > ul > li > a{
+        text-transform: uppercase;
+    }
+
+    #popupMenu > ul > li > ul{
+        list-style-type: none;
+        margin-left: 14px;
+    }
+
+    #closePopup{
+        position: absolute;
+        right: 17px;
+        top: 23px;
+        width: 25px;
+        height: 25px;       
+    }
+
+    #closePopup:before, #closePopup:after{
+        position: absolute;
+        left: 15px;
+        content: '';
+        height: 25px;
+        width: 1px;
+        background-color: #ffffff;        
+    }
+
+    #closePopup:before{
+        transform: rotate(45deg);
+    }
+    
+    #closePopup:after{
+        transform: rotate(-45deg);
+    }
+
+    
+    .logoBlock{
+    	height: 38px;
+    }
+
+    .logo{
+    	height: 25px;
+    	margin-top: 8px;
+		margin-left: 15px;
+    }
+
+    .name{
+    	height: 16px;
+    	margin-top: 13px;
+    	margin-left: 0px;
+    }
+
+    .lang{
+    	top: 4px;
+		right: 18px;			
+	    -webkit-transition: background 2s linear;
+	    -moz-transition: background 2s linear;
+	    -o-transition: background 2s linear;
+	    transition: background 2s linear;
+    }
+
+    .langs{
+    	width: 70px;
+    }
+
+    .langs li{
+    	height: 35px;
+    }
+
+    .langs a {
+    	font-size: 14px;
+    }
+
+    .lang:hover {
+	    top: 3px;
+	    right: 17px;
+	}
+
+    .content{
+    	min-width:100%;
+    	overflow: hidden;
+    }
+	
+	.sliderAndArrowWrap{
+		height: 240px;
+		width: 100%;
+		margin-top: 28px;
+	}
+
+    .sliderWrap{
+		height: 240px;
+    }
+
+    .sliderLi > img{
+        width: 100%;
+    }
+
+    #sliderBullits{
+    	bottom: 24px;
+    }
+
+    .bullits{
+    	width: 5px;
+		height: 5px;
+		margin-right: 2px;
+		margin-left: 2px;
+    }
+	
+	.arrowDown{
+		bottom: 6px;
+	}
+
+    .arrowDown > a > img{
+    	width: 95px;
+    }
+	
+	.aboutCompany {
+	    padding-top: 75px;
+	    height: auto;
+	    padding-bottom: 20px;
+	}
+
+	.aboutCompanyTitle,
+	.structureTitle,
+	.arendatorsTitle,
+	.newsTitle,
+	.contactsTitle,
+	.centreInfoTitle,
+	.opServicesTitle{
+		font-size: 32px;
+	}
+
+	.aboutCompanyContent {
+	    margin-top: 25px;
+	    width: 90%;
+	    text-align: center;
+	}
+
+	.contentText {
+	    text-align: justify;
+	    width: 100%;
+		display: inline-block;
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	.structureContent, .freeSpacesContent {
+	    width: 90%;
+	}
+
+	.structureBlock{		
+	    height: auto;
+	}
+
+	.structureBlockPic, .freeSpacesBlockPic {
+	    float: none;
+	    width: 100%;
+	    display: block;
+	    height: 225px;
+	    overflow: hidden;
+	}
+
+	.structureBlockPic > img, .freeSpacesBlockPic > img {
+	    float: none;
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    top: -10px;
+	}
+
+	.infoBlock {
+	    width: 100%;
+	}
+
+	.structureTitle{
+		margin-top: 50px;
+	}
+
+	hr {
+	    margin: 20px auto;
+	}
+
+	/* .structureContent > p{
+		font-size: 14px;
+		line-height: 18px;
+	} */
+
+	.detailsBtn/* , .contactsBtn */ {
+	    height: 30px;
+	    width: 105px;
+	    font-size: 11px;
+	    margin: 40px auto;
+		line-height: 28px;
+	}
+
+	.freeSpacesBlock{
+		height: auto;
+	}
+
+	.freeSpacesTitle{
+		margin-top: 50px;
+		margin-left: 0px;
+		font-size: 24px;
+	}
+
+	.gallery, .slNavigation {
+	    height: 300px;
+	}
+
+	#slLeft, #slRight {
+	    width: 20px;
+	    transform: scale(3, 3);
+	    height: 195px;		    
+	}
+
+	#slLeft{
+		text-align: right;
+	}
+
+	#slRight{
+		text-align: left;
+	}
+
+	.slNavigation > div > img{
+		height: 227px;    	
+	}
+
+	.arendators {
+	    height: auto;
+	    padding-top: 88px;
+	}
+	
+	.arendLogo > a > img{
+		height: 70px;
+	}
+
+	.arendatorsSlideWrap {
+		width: 90%;
+	    height: auto;
+	    padding-top: 45px;
+	    padding-bottom: 50px;
+	    padding-right: 10px;
+	}
+
+	.arendatorsList{
+		height: auto;
+		display: inline;
+	}
+
+	.arendLogo:first-child {
+	    margin-left: 10px;
+	}
+
+	.arendLogo {
+	    display: inline-block;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.news{
+		padding-top: 80px;
+	}
+
+	.newsBlock{
+		display: none;
+	}
+
+	.newsBlock:first-child{
+		display: block;
+		width: 90%;
+		margin: 0 auto 0 auto;
+		float: none;
+	}
+
+	.newsBlockWrap {
+	    margin: 14px auto;
+	}
+
+	.newsDate{
+		font-size: 21px;
+	}
+	
+	.newsInfo {
+	    font-size: 16px;
+	    line-height: 20px;
+	    letter-spacing: 0;
+	}
+
+	.newsDetails{
+		font-size: 12px;
+	}
+
+	.portOrMargin{
+		margin: 20px auto;
+	}
+
+	/*--- form block ---*/
+
+	.formBlock {
+	    float: none;
+	    display: inline-block;
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	    margin-left: 0px;
+	    width: 76%;
+	    height: auto;
+	    text-align: center;
+	}
+	
+
+	.contacts input[type="text"], 
+	.contacts input[type="email"]/* , 
+	.sendRequestFormWrap input[type="text"], 
+	.sendRequestFormWrap input[type="email"] */ {
+	    width: 100%;
+	    display: block;
+	    float: none;
+	    margin-top: 13px;
+	    font-size: 18px;
+	    padding-left: 0px;
+	    height: 26px;
+	}
+
+	.contacts textarea/* , .sendRequestFormWrap textarea */ {
+	    width: 100%;
+	    height: 100px;
+	    display: block;
+	    float: none;
+	    margin-top: 11px;
+	    font-size: 18px;
+	    padding: 0;
+	}
+	
+	button.inputBtn {
+	    height: 30px;
+	    width: 100px;
+	    float: none;
+	    margin-top: 14px;
+	}
+
+	.map_holder {
+		margin: 120px 0 -120px 0;
+	}
+
+	.contacts{
+		height: auto;
+		padding-top: 110px;
+	}
+
+	.contactDetails{
+		display: block;
+		margin: auto;
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.contactDetailsText {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	.detailsBtn{
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+
+
+	.mapLink{
+		font-size: 12px;
+		text-decoration: underline;
+		display: block;
+	}
+
+	.schemeNav{
+		margin: 30px auto;
+	}
+
+	.contactsBtn{
+		width: 130px;
+		margin: 7px auto;
+	}
+
+	.contactsBtn{
+		width: 170px;
+	}
+
+	footer {
+	    height: 23px;
+	}
+
+	.author {
+	    font-size: 10px;	
+	}
+
+	.siteDesign {
+	    font-size: 10px;
+	    margin-top: 0px;
+	}
+
+	.up{
+		display: none !important;
+	}
+
+
+	/*------ about b centre page styles ------*/
+
+	.backgroundLogo{
+		width: 480px;
+		top: 300px;
+	}
+
+	.centreInfo{
+		height: auto;
+		margin-top: 130px;
+	}
+	
+	.centreInfoContentWrap{
+		height: auto;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.centreInfoContent{
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+
+	.location{
+		height: auto;
+		padding-top: 75px;
+	}
+
+	.location_wrap {
+	    width: auto;
+	    margin: 80px auto 0px auto;
+	}
+
+	.location_wrap img {
+		float: none;	    
+	    width: 250px;
+	}
+
+	.location_wrap .text {
+	    width: auto;
+	    font-size: 16px;
+	    margin-right: 7%;
+	    margin-left: 7%;
+	    margin-top: 35px;
+	    float: none;
+	}
+
+	.location_wrap .links {
+	    width: auto;
+	    margin-top: 0px;
+	    text-align: center;
+	}
+
+	.location_wrap .links .schemeNav {
+	    width: auto;
+	}
+
+	.opServices{
+		height: auto;
+	}
+
+	.opServicesWrap{
+		width: 82%;
+		margin: 45px auto 55px auto;
+	}
+
+	.opServicesTitle {
+	    margin-top: 47px;
+	}
+	
+	.opServicesList{
+		float: none;
+	}
+
+	.floatRight{
+		float: none;
+	}
+
+	.opServicesListLi{
+		width: auto;
+	}
+
+	.innerTitle{
+		line-height: 24px;
+	}
+
+	.parking{
+		height: auto;
+		padding-top: 80px;
+	}
+
+	.park_wrap{
+		width: auto;
+		min-width: 300px;
+		margin: 50px auto 30px auto;
+	}
+
+	.park_left, .park_right{
+		width: auto;
+		float: none;
+		margin-bottom: 50px;
+	}
+
+	.park_right h3, .park_left h3{
+		width: auto;
+	}
+
+	.parking h3 {
+	    font-size: 24px;
+	    line-height: 24px;
+	    display: block;
+	    width: 80%;
+	    margin: 0 auto;
+	}
+
+	.parking .info{
+		font-size: 14px;
+		line-height: 18px;
+		display: block;
+	    width: 80%;
+	    margin: 15px auto 15px auto;
+	}
+
+	.park_wrap div img {
+		width: 80%;
+	}
+
+	/*------ about company page styles ------*/
+
+	.aboutCompany {
+	    padding-top: 115px;
+	}
+
+	.aboutCompanyContent {
+	    margin-top: 25px;
+	}
+
+	.contentText {
+	    text-align: justify;
+	}
+
+	/*------ available spaces page styles ------*/
+
+	.avSpaces{
+		height: auto;
+	}
+
+	.avSpacesTitle{
+		margin: 120px auto 0px auto;
+		font-size: 24px;
+	}
+
+	.spacesOptions {
+	    margin: 0 auto;
+	    height: auto;
+	}
+
+	.optionName{
+		font-size: 12px;
+	}
+
+	.optionsWrap {
+	    display: block;
+	    float: none;
+	    height: auto;
+	    margin: auto;	   
+	}
+
+	.optionsArrow{
+		display: none;
+	}
+
+	.floors, .spaces {
+	    display: block;
+	    float: none;
+	}
+
+	.floorsList, .spacesList {
+	    position: relative;
+	    width: 98px;
+	    display: block;
+	    margin: 10px auto 0px auto;
+	}
+
+	.floorBtn, .spacesBtn {
+	    height: 30px;
+	    width: 100px;
+	    line-height: 28px;
+	    font-size: 11px;
+	    margin: 15px auto 0px auto;
+	}
+
+	.floorBtn:after,
+	.spacesBtn:after {
+	    position: relative;
+	    bottom: 16px;
+	    left: 105px;
+	    content: '';
+	    background: url(/img/optionsArrow.png) no-repeat;
+	    display: block;
+	    height: 15px;
+	    background-size: 18px 12px;
+	    width: 40px; /* ? */
+	}
+
+	.floorsList > li, .spacesList > li {
+	    height: 25px;
+	    font-size: 11px;
+	    line-height: 22px;
+	}	
+
+	.optionsWrap:nth-child(2){
+		height: 50px;
+		margin-top: 30px;	
+		margin-bottom: 30px;	
+	}
+
+	.spacesList > li {
+		background-color: #ffffff;
+	}
+
+	.floorValue{
+		font-size: 24px;
+	}
+
+	.valuesSeparator {
+	    width: 100px;
+	    margin: 23px 0px 23px 0px;
+	    display: inline-block;
+	}
+
+	.spaceValue{
+		font-size: 24px;
+		/*display: block !important;*/
+	}
+
+	.requestSup{
+		font-size: 14px;
+	}
+
+	.inputCustomValue {
+	    line-height: 24px;
+	    width: 100px;
+	    font-size: 24px;
+	    margin: 0 auto;
+	    height: 35px;
+	}
+	
+	.planWrap{
+		margin: 0;
+	}
+
+	.summary {
+	    display: block;
+	    height: auto;
+	    float: none;	    
+	    margin: 0 0 0 50px;
+	}
+
+	.summary p{
+		font-size: 11px;
+    	line-height: 16px;
+	}
+
+	.summary p sup{
+		font-size: 9px;
+	}
+
+	.summary a{
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+
+	.listWrap {
+	    display: block;
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	.floorsPicList {
+	    display: inline;
+	    list-style-type: none;
+	}
+
+	.floorPlanPic {
+	    float: none;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	    width: 320px;
+	}
+
+	/*------ news page styles ------*/
+	
+	.newsMainPage {
+	    margin-top: 35px;
+	}
+
+	.newsBlockWrap {
+	    margin: 15px auto;
+	}
+	
+	.newsBlock{
+	    display: block;
+	    width: 90%;
+	    margin: 0 auto 0 auto;
+	    float: none;
+	    height: auto;
+	    text-align: left;	   
+	}
+
+	.newsDesc{
+		display: none;
+	}
+
+	.newsDetails {
+	    display: inline;
+	    float: none;
+	    margin-top: 14px;
+	}
+
+	/*------ contacts page styles ------*/
+
+	.contactsMap{
+		height: 225px;
+	}
+
+	/*------ tenants info page ------*/
+
+	.workRequest{
+		display: none;
+	}
+
 }
