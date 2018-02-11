@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Садовая Плаза</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body onload="prepareLayout()">
+	<header>
+		<nav>
+			<ul class="navMenu">
+				<li class="menuItem">
+					<a class="menuItemLink" href="">О компании</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">О бизнес-центре</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Параметры здания</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Расположение</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Услуги по эксплуатации</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Инфраструктура</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Рестораны и кафе</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Паркинг</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Свободные площади</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Поэтажные планы</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Отправить заявку</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Галерея</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Информация для арендаторов</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Правила здания</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Формы заявок</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Заявка на технические работы</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Арендаторы</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Новости</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Контакты</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Схема проезда</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Обратная связь</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItemRegistration">
+					<a class="menuItemLink" href="">Регистрация / Вход</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="logoBlock">
+				<img class="logo" src="img/logo.png" alt="#">
+				<img class="name" src="img/name.png" alt="#">
+				<!-- добавить языковое меню -->
+		</div>
+
+	</header>
+
+<!-- BEGIN OF CONTENT BLOCK -->
+	<div class="content"> 
+
+		
+			<!-- Contacts block -->
+
+			<div class="contacts contactsFullPage">
+				<h2 class="contactsTitle">Контакты</h2>
+
+				<!-- Feedback form -->	
+
+				<div class="formBlock">
+					<form action="">
+						<p class="formName">Обратная связь</p>
+
+						<input class="inputName" type="text" name="Name" placeholder="Имя">
+
+						<input class="inputMail" type="text" name="email" placeholder="Email">
+
+						<textarea class="inputMessage" name="message" placeholder="Сообщение"></textarea>
+
+						<button class="inputBtn" type="submit" name="sendBtn">Отправить</button>
+
+					</form>
+				</div>
+
+				<!-- Contacts details -->	
+
+				<div class="contactDetails">
+					<p class="contactDetailsText">
+						127006, Москва, Долгоруковская ул., д.7<br />Телефон: +7 (495) 787 86 86<br />Факс: +7 (495) 787 86 88<br />info@mosek.ru
+					</p>
+					<a href="" class="mapLink">Посмотреть на карте</a>
+					
+					<div class="schemeNav">
+						<a href="" class="detailsBtn contactsBtn">Схема проезда на авто</a>					
+						<a href="" class="detailsBtn contactsBtn">Схема проезда пешком</a>
+					</div>
+				</div>
+			</div>
+
+		<iframe class="contactsMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.1204431444658!2d37.60143631593134!3d55.773779980558984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a15f00dd905%3A0xedfaf1df2bc0918b!2z0JTQvtC70LPQvtGA0YPQutC-0LLRgdC60LDRjyDRg9C7LiwgNywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEyNzAwNg!5e0!3m2!1sru!2sua!4v1494764773200" frameborder="0" allowfullscreen></iframe>
+	</div> <!-- END OF CONTENT BLOCK -->
+
+	<footer>
+		<p class="siteDesign">Дизайн сайта <a href="" class="author">Еловый Слон</a></p>
+	</footer>
+</body>	
+</html>

@@ -1,0 +1,1723 @@
+@charset "utf-8";
+
+/*adonisc-italic-webfont*/
+@font-face {
+    font-family: 'adoniscitalicwebfont';
+    src: url('../fonts/adoniscitalicwebfont.eot');
+    src: url('../fonts/adoniscitalicwebfont.eot') format('embedded-opentype'),
+         url('../fonts/adoniscitalicwebfont.woff2') format('woff2'),
+         url('../fonts/adoniscitalicwebfont.woff') format('woff'),
+         url('../fonts/adoniscitalicwebfont.ttf') format('truetype'),
+         url('../fonts/adoniscitalicwebfont.svg#adoniscitalicwebfont') format('svg');
+}
+
+/*adonisc-webfont*/
+@font-face {
+    font-family: 'adoniscwebfont';
+    src: url('../fonts/adoniscwebfont.eot');
+    src: url('../fonts/adoniscwebfont.eot') format('embedded-opentype'),
+         url('../fonts/adoniscwebfont.woff2') format('woff2'),
+         url('../fonts/adoniscwebfont.woff') format('woff'),
+         url('../fonts/adoniscwebfont.ttf') format('truetype'),
+         url('../fonts/adoniscwebfont.svg#adoniscwebfont') format('svg');
+}
+
+/*SegoeUI-Italic-webfont*/
+@font-face {
+    font-family: 'SegoeUIItalicwebfont';
+    src: url('../fonts/SegoeUIItalicwebfont.eot');
+    src: url('../fonts/SegoeUIItalicwebfont.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIItalicwebfont.woff2') format('woff2'),
+         url('../fonts/SegoeUIItalicwebfont.woff') format('woff'),
+         url('../fonts/SegoeUIItalicwebfont.ttf') format('truetype'),
+         url('../fonts/SegoeUIItalicwebfont.svg#SegoeUIItalicwebfont') format('svg');
+}
+
+/*segoeui-lightitalic-webfont*/
+@font-face {
+    font-family: 'segoeuilightitalicwebfont';
+    src: url('../fonts/segoeuilightitalicwebfont.eot');
+    src: url('../fonts/segoeuilightitalicwebfont.eot') format('embedded-opentype'),
+         url('../fonts/segoeuilightitalicwebfont.woff2') format('woff2'),
+         url('../fonts/segoeuilightitalicwebfont.woff') format('woff'),
+         url('../fonts/segoeuilightitalicwebfont.ttf') format('truetype'),
+         url('../fonts/segoeuilightitalicwebfont.svg#segoeuilightitalicwebfont') format('svg');
+}
+
+/*SegoeUI-Light-webfont*/
+@font-face {
+    font-family: 'SegoeUILightwebfont';
+    src: url('../fonts/SegoeUILightwebfont.eot');
+    src: url('../fonts/SegoeUILightwebfont.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUILightwebfont.woff2') format('woff2'),
+         url('../fonts/SegoeUILightwebfont.woff') format('woff'),
+         url('../fonts/SegoeUILightwebfont.ttf') format('truetype'),
+         url('../fonts/SegoeUILightwebfont.svg#SegoeUILightwebfont') format('svg');
+}
+
+/*SegoeUIr-webfont*/
+@font-face {
+    font-family: 'SegoeUIrwebfont';
+    src: url('../fonts/SegoeUIrwebfont.eot');
+    src: url('../fonts/SegoeUIrwebfont.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIrwebfont.woff2') format('woff2'),
+         url('../fonts/SegoeUIrwebfont.woff') format('woff'),
+         url('../fonts/SegoeUIrwebfont.ttf') format('truetype'),
+         url('../fonts/SegoeUIrwebfont.svg#SegoeUIrwebfont') format('svg');
+}
+
+/*SegoeUI-Semibold-webfont*/
+@font-face {
+    font-family: 'SegoeUISemiboldwebfont';
+    src: url('../fonts/SegoeUISemiboldwebfont.eot');
+    src: url('../fonts/SegoeUISemiboldwebfont.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUISemiboldwebfont.woff2') format('woff2'),
+         url('../fonts/SegoeUISemiboldwebfont.woff') format('woff'),
+         url('../fonts/SegoeUISemiboldwebfont.ttf') format('truetype'),
+         url('../fonts/SegoeUISemiboldwebfont.svg#SegoeUISemiboldwebfont') format('svg');
+}
+
+/*SegoeUI-Sl-webfont*/  /*segoeUI semilight*/
+@font-face {
+    font-family: 'SegoeUISlwebfont';
+    src: url('../fonts/SegoeUISlwebfont.eot');
+    src: url('../fonts/SegoeUISlwebfont.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUISlwebfont.woff2') format('woff2'),
+         url('../fonts/SegoeUISlwebfont.woff') format('woff'),
+         url('../fonts/SegoeUISlwebfont.ttf') format('truetype'),
+         url('../fonts/SegoeUISlwebfont.svg#SegoeUISlwebfont') format('svg');
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+}
+
+a, img{
+    outline: none;
+}
+
+img{
+	border: none;
+}
+
+h2{
+    font-weight: normal;
+}
+
+header{
+    position: fixed;
+	width: 100%;
+	z-index: 100;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/****** Navigation ******/
+nav{
+	height: 44px;
+	background-color: #000000;
+	border: solid 1px;
+	border-top-color: #352c24;
+	border-bottom-color: transparent;
+}
+
+nav > ul{
+    margin-left: 17px;
+    padding-top: 16px;
+    list-style-type: none;
+}
+
+nav > ul > li{
+    float: left;
+	margin-left: 60px;
+    height: 29px;
+}
+
+nav > ul > li > a{
+	text-transform: uppercase;
+    font-size: 12px;
+}
+
+nav > ul > li:hover > a{
+    color: #0082c6;
+}
+
+nav > ul > li > a, 
+nav > ul > li > ul > li > a{
+    -webkit-transition: color 0.3s ease-out 0s;
+    -moz-transition: color 0.3s ease-out 0s;
+    -o-transition: color 0.3s ease-out 0s;
+    transition: color 0.3s ease-out 0s;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "SegoeUISlwebfont";
+
+}
+
+nav > ul > li > ul > li> a:hover{
+	color: #0082c6;
+}
+
+nav > ul > li:last-child{
+	float: right;
+	margin-right: 79px;
+}
+
+nav > ul > li > ul{
+    position: absolute;
+    left: 0;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    border: solid 2px transparent;
+    border-top-color: #004163;
+    list-style-type: none;
+    margin: 9px auto;
+    text-align: center;
+    z-index: 100;
+    visibility: hidden;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+nav > ul > li:hover > ul{
+    height: 97px;
+    border: solid 2px transparent;
+    border-top-color: #004163;
+    z-index: 100;
+    visibility: visible;
+}
+
+nav > ul > li:last-child:hover > a,
+nav > ul > li:hover > a{
+    color: #0082c6;
+}
+
+nav > ul > li > ul > li{
+    display: inline-block;
+    margin-left: 50px; 
+    vertical-align: -200%;
+    opacity: 0;
+}
+
+nav > ul > li:hover > ul > li{
+    opacity: 1;
+}
+
+nav > ul > li > ul > li:first-child{
+    margin-left: 0px;
+}
+
+nav > ul > li > ul > li > a{
+    font-size: 18px;
+}
+
+nav ul li.active>a {
+    color: #0082c6;
+}
+
+.logoBlock{
+    position: relative;
+    height: 98px;
+    width: 100%;
+    background-color: #bbc2d0;
+    opacity: 0.78;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    display: block;
+    float: left;
+    margin-top: 21px;
+    margin-left: 77px;
+}
+
+.name{
+    display: inline;
+    margin-top: 35px;
+}
+
+/****** Plaza slider ******/
+
+.content{
+    width: 100%;
+    z-index: 1;
+    min-width: 720px;
+}
+
+/****** Centre Info *******/
+
+.centreInfo{
+    position: relative;
+    height: 817px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    margin-top: 300px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.centreInfoContentWrap{
+    margin-top: 68px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+
+.centreInfoContent{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.backgroundLogo{
+    position: absolute;
+    left: -55px;
+    top: 233px;
+}
+
+.sliderAndArrowWrap{
+    position: relative;
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slideWrap{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#plazaSlider{
+    margin-top: 45px;
+    list-style-type: none;
+    display: block;
+}
+
+.sliderLi{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;  
+    opacity: 0;
+}
+
+.sliderLi:first-child{
+    opacity: 1;
+}
+
+#sliderBullits{
+    position: absolute;
+    width: 100%;
+    bottom: 83px;
+    text-align: center;
+}
+
+.bullits{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #575756;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.bullits:first-child{
+    background-color: #ffffff;
+}
+
+.arrowDown{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 27px;
+}
+
+/****** About company ******/
+
+.aboutCompany{
+    padding-top: 300px;
+    width: 100%;
+    height: 592px;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+.aboutCompanyColor{
+    background-color: #ffffff;
+}
+
+
+.aboutCompanyContent, 
+.structureContent, 
+.freeSpacesContent{
+	width: 100%;
+	text-align: center;
+	display: inline-block;	
+}
+
+.aboutCompanyContent{
+    margin-top: 69px;
+    width: 70%;
+}
+
+.aboutCompanyTitle, 
+.structureTitle, 
+.freeSpacesTitle, 
+.arendatorsTitle,
+.newsTitle,
+.contactsTitle,
+.centreInfoTitle,
+.opServicesTitle,
+.tenantTitle{
+    color: #000000;
+    font-family: "SegoeUILightwebfont";
+    font-size: 48px;
+}
+
+.aboutCompanyTitle{
+    color: #3c3c3b;
+}
+
+.blockContent{
+	margin-top: 90px;
+}
+
+.contentText{
+    color: #3c3c3b;
+    font-family: "SegoeUILightwebfont";
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.aboutCompanyText{
+    color: #575756;
+}
+
+
+/****** Structure ******/
+
+.structureBlock{
+	width: 100%;
+    display: block;
+	height: 634px;
+}
+
+.structureTitle{
+    margin-top: 105px;
+    color: #000000;
+}
+
+.structureBlockPic{
+	width: 50%;
+	float: left;
+	display: inline-block;
+	height: inherit;
+}
+
+.structureBlockPic > img{
+    float: right;
+}
+.structureContent{
+    margin-top: 6px;
+}
+
+.infoBlock{
+	display: inline-block;
+	background-color: #ffffff;
+	height: inherit;
+	width: 50%;
+	text-align: center;
+}
+
+sup{
+    font-size: 9px;
+}
+
+hr{
+	width: 31.25%;
+	color: #808080;
+	margin: 39px auto;	
+}
+
+
+.detailsBtn, .contactsBtn{
+    height: 56px;
+    width: 203px;
+    text-align: center;
+    background-color: #000000;
+    border: 2px solid #686868;
+    color: #ffffff;
+    font-family: "SegoeUILightwebfont";
+    font-size: 21px;
+    margin: 50px auto;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.detailsBtn:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/****** Free spaces ******/
+
+.freeSpacesBlock{
+	height: 634px;
+	width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.freeSpacesTitle{
+    margin-top: 118px; 
+    margin-left: -1px;
+    color: #000000;
+}
+
+.freeSpacesBlockPic{
+	width: 50%;
+	float: right;
+	display: inline-block;
+	height: inherit;
+}
+
+.freeSpacesBlockPic > img{
+    float: left;
+}
+
+.freeSpacesContent{
+    margin-top: 5px; 
+    margin-right: 2px;
+}
+
+.freeSpacesDetailsBtn{
+    margin-top: 52px;
+}
+
+/*******  gallery slider *******/
+
+.gallery{
+    position: relative;
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.galleryWrap{
+    position: relative;
+    display: block;
+    width: 100%;    
+}
+
+#gallerySlider{
+    list-style-type: none;
+    display: block;
+}
+
+.gallerySliderLi{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;  
+    opacity: 0;
+}
+
+.gallerySliderLi:first-child{
+    opacity: 1;
+}
+
+.slNavigation{
+    position: relative;
+    height: inherit;
+    width: inherit;
+/*    top: 0;
+    left: 0;*/
+}
+
+#slLeft, #slRight{
+    position: relative;
+    display: inline-block;
+    height: inherit;
+    width: 100px;
+    height: 1100px;
+    cursor: pointer;
+}
+
+#slLeft{
+    float: left;
+    text-align: right;
+    display: none;
+}
+
+#slRight{
+    float: right;
+    text-align: left;
+}
+
+/*********Operation services********/
+
+.opServices{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 1353px;
+    background-color: #d9d9d9;
+}
+
+.opServicesTitle{
+    margin-top: 283px;
+    text-align: center;
+}
+
+.opServicesWrap{
+    position: relative;
+    display: block;
+    width: 77.71%;
+    margin: 113px auto;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .opServicesWrap{
+        width: 85%;
+    }
+}
+
+.opServicesList{
+    position: relative;
+    list-style-type: none;
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.opServicesListLi{
+    display: block;
+    width: 577px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .opServicesListLi{
+        width: 500px;
+    }
+}
+
+.lastItemsMargin{
+    margin-top: 45px;
+}
+
+.opServicesListLi:first-child{
+    margin-top: 0px;
+}
+
+.innerTitle{
+    text-align: justify;
+    margin-top: 0px;
+    line-height: 46px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .innerTitle{
+        line-height: 34px;
+        font-size: 36px;
+    }
+}
+
+
+.opServicesInfo{
+    margin-top: 22px;
+    color: #575756;
+    text-align: justify;
+}
+
+/******* Info for tenants********/
+
+.tenantBook{
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.tenantBookPic{
+    margin-top: 63px;
+}
+
+.tenantsBtn{
+    margin-top: 37px;
+}
+
+.tenantForms{
+    position: relative;
+    width: 100%;
+    margin-top: 160px;
+    text-align: center;
+    height: 520px;
+}
+
+.formsList{
+    display: block;
+    width: 620px;
+    list-style-type: none;
+    margin: 50px auto auto auto;
+}
+
+.formsListLi{
+    display: inline;
+    float: left;
+    margin-left: 73px;
+}
+
+.formsListLi:first-child{
+    margin-left: 0px;
+}
+
+.formListLink{
+    text-decoration: none;
+    display: block;
+}
+
+.formsPic{
+    background-image: url(../img/formsPic.png);
+    width: 100px;
+    height: 144px;
+    background-position: -175px;
+}
+
+
+.formsListLi:hover .formsListTitle{
+    color: #009fe3;
+}
+
+.formsListLi:hover .formsPic{
+    background-position: 0px;
+}
+
+
+.formsListTitle{
+    font-size: 21px;
+    font-family: "SegoeUILightwebfont";
+    color: #706f6f;
+    margin-top: 25px;
+    margin-bottom: 48px;
+}
+
+.workRequest{
+    display: block;
+    width: 100%;
+    height: 330px;
+    margin: 160px auto;
+    text-align: center;
+}
+
+.workRequestLink{
+    display: block;
+    margin: 50px auto;
+}
+
+.workRequestLink:hover{
+    background-position: 0px;
+}
+
+
+/******** Arendators *********/
+
+.arendators{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.arendatorsTitle{
+    color: #000000;
+    margin: 0;
+}
+
+.arendatorsSlideWrap{
+    position: relative;
+    display: block;
+    text-align: center;
+    height: 576px;
+    padding-top: 115px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*#arendatorSlider{
+    display: inline-block;
+    list-style-type: none;
+    left: 0px;
+    position: absolute;
+}*/
+
+/*.arendatorSliderLi{
+    width: inherit;
+    display: inline-block;
+}*/
+
+/*.arendatorsListWrap{
+    width: inherit;
+    position: relative;
+    margin: 0 auto;
+}*/
+
+.arendatorsList{
+    list-style-type: none;
+    display: block;
+    position: relative;
+    height: 248px;
+}
+
+.arendLogo{
+    display: inline;
+    margin-left: 31px;
+    margin-top: 69px;
+}
+
+.arendLogo:first-child{
+    margin-left: 0px;
+}
+
+#sliderBullits2{
+    position: relative;
+    display: inline-block;
+    margin-top: 51px;
+}
+
+.bullits2{
+    width: 13px;
+    float: left;
+    height: 13px;
+    display: inline-block;
+    margin-left: 11px;
+    background-color: #575756;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+/***** News *****/
+
+
+.news{
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*height: 800px;*/
+    padding-top: 300px;
+    overflow: hidden;
+    position: relative;
+    background-color: #d0d0d0;
+}
+
+.newsBanner{
+    position: relative;
+    display: inline-block;
+    /*height: 870px;*/
+    width: 100%;
+}
+
+.newsBannerContentWrap{
+    position: relative;
+    margin: 265px auto 115px auto;
+    display: block;
+    /*height: 635px;*/
+    width: 92.1875%;
+}
+
+.contentPic{
+    position: relative;
+    display: inline-block;
+    height: inherit;
+    width: 963px;
+    float: left;
+}
+
+.contentInfo{
+    position: relative;
+    display: inline-block;
+    height: inherit;
+    width: 540px;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.title{
+    display: inline-block;
+    margin-top: 38px;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "SegoeUILightwebfont";
+    font-weight: normal;
+    color: #0082c6;
+    text-align: center;
+}
+
+
+.line{
+    width: 300px;
+    color: #000000;
+    margin: 46px auto 20px auto;
+}
+
+.info{
+    margin-top: 23px;
+    color: #575756;
+    font-family: "SegoeUILightwebfont";
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.newsFullPage{
+    padding-top: 0px;
+}
+
+.newsBtn{
+    margin-top: 63px;
+}
+
+.newsOuterWrap{
+    width: 100%;
+    position: relative;
+}
+
+.newsTitle{
+    display: inline-block;
+
+}
+
+.newsBlockWrap{
+    display: inline-block;
+    position: relative;
+    margin: 47px auto;
+}
+
+.newsBlock{
+    display: inline-block;
+    float: left;
+    width: 532px;
+    margin-left: 50px;
+}
+
+
+.newsBlock:first-child{
+    margin-left: 0px;
+}
+
+.newsDate{
+    font-family: "SegoeUILightwebfont";
+    font-size: 36px;
+    color: #000000;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.aboutCompanyNewsDate{
+    color: #0082c6;
+}
+
+.newsDesc{
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-family: "SegoeUILightwebfont";
+    padding-top: 28px;
+    font-weight: normal;
+    padding-bottom: 28px;
+}
+
+
+.newsInfo{
+    text-align: justify;
+    font-family: "SegoeUILightwebfont";
+    font-size: 18px;
+    line-height: 1.4em;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.newsDetails{
+    display: inline-block;
+    float: left;
+    font-family: "SegoeUILightwebfont";
+    font-size: 18px;
+    color: #888887;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.newsDetails:hover{
+	color: #000000;
+}
+
+.newsBtnWrap{
+    text-align: center;
+    margin-top: 640px;
+}
+
+.aboutCompanyBtnWrap{
+    margin-top: 470px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .aboutCompanyBtnWrap{
+        margin-top: 570px;
+    }
+}
+
+
+/***** Contacts *****/
+
+
+.contacts{
+    text-align: center;
+    display: block;
+    height: 744px;
+    padding-top: 344px;
+    width: 100%;
+    background-color: #d0d0d0;
+}
+
+.contactsFullPage{
+    background-color: #fff;
+}
+
+.formBlock{
+	float: left;
+	display: inline-block;
+    margin-left: 236px;
+    margin-top: 177px;
+	width: 782px;
+	height: 460px;
+}
+
+.formName{
+	font-family: "SegoeUILightwebfont";
+	font-size: 24px;
+	color: #000000;
+    text-align: left;
+}
+
+.contactsMap{
+    border: 0;
+    width: 100%;
+    height: 1100px;
+}
+
+input[type="text"]{
+	border: solid 1px #7e8189;
+	background: #ffffff !important;
+	outline: none;
+	height: 51px;
+	width: 758px;
+	display: block;
+	float: left;
+	margin-top: 13px;
+	font-family: "SegoeUIrwebfont";
+	font-size: 18px;
+	padding-left: 22px;
+}
+
+textarea{
+	border: solid 1px #7e8189;
+	background: #ffffff !important;
+	outline: none;
+	width: 758px;
+    height: 154px;
+    display: block;
+    float: left;
+    margin-top: 11px;
+	font-family: "SegoeUIrwebfont";
+	font-size: 18px;
+	padding-left: 22px;
+	padding-top: 12px;
+}
+
+.inputName{
+    margin-top: 33px;
+}
+
+.inputMail{
+    margin-top: 12px;  
+}
+button.inputBtn{
+    height: 57px;
+    width: 203px;
+    background-color: transparent;
+    border: 2px solid #686868;
+    font-size: 21px;
+    font-family: "SegoeUILightwebfont";
+    float: right;
+    margin-top: 14px;
+    margin-right: 1px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.contactDetails{
+    float: right;
+	display: inline-block;
+    margin-right: 236px;
+    margin-top: 169px;
+	width: 420px;
+	height: 448px;
+	text-align: center;
+}
+
+.contactDetailsText{
+	text-align: center;
+	font-family: "SegoeUILightwebfont";
+	color: #000000;
+	font-size: 24px;
+	line-height: 48px;
+}
+
+.mapLink{
+	font-family: "SegoeUILightwebfont";
+	display: inline-block;
+	font-size: 18px;
+	color: #3c3c3b;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.mapLink:hover{
+    color: #000000;
+}
+
+.schemeNav{
+    display: inline-block; 
+    margin: 50px auto; 
+    width: inherit; 
+}
+
+
+.contactsBtn{
+	margin: 15px auto;
+    height: 57px;
+    width: 296px;
+}
+
+.contactsBtn:first-child{
+    margin-top: 0px;
+}
+
+.contactsBtnText{
+	margin-top: 13px;	
+}
+
+.inputBtn, 
+.contactsBtn, 
+.detailsBtn{
+	-webkit-transition: all 0.7s ease-out 0s;
+    -moz-transition: all 0.7s ease-out 0s;
+    -o-transition: all 0.7s ease-out 0s;
+    transition: all 0.7s ease-out 0s;
+    text-decoration: none !important;
+}
+
+.inputBtn:hover, .contactsBtn:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+footer{
+	width: 100%;
+	height: 56px;
+	background-color: #000000;
+	text-align: center;
+}
+
+.siteDesign{
+	display: inline-block;
+	font-family: "SegoeUILightwebfont";
+	color: #575756;
+	font-size: 18px;
+    margin-top: 14px;
+    margin-left: 2px;
+}
+
+.author{
+	font-family: "SegoeUILightwebfont";
+	color: #575756;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.author:hover{
+	color: #ffffff;
+}
+
+
+
+/*1680 resolution*/
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    header, .content, footer{
+        width: 100%;
+        max-width: 1680px;
+    }
+
+    nav > ul{
+        margin-left: 3px;
+    }
+
+    nav > ul > li{
+        margin-left: 60px;
+    }
+    
+    nav > ul > li:last-child{
+        margin-right: 65px;
+    }
+
+    nav > ul > li > a{
+        letter-spacing: -0.03em;
+    }
+
+    .logo{
+        margin-left: 63px;
+    }
+
+    .aboutCompanyContent{
+        width: 1317px;
+    }
+    .galleryWrap{
+        width: 100%;
+    }
+    .gallerySliderLi > img{
+        margin: 0 auto;
+    }
+
+    .arendatorSliderLi{
+        margin-right: 40px;
+    }
+
+    .newsBlockWrap{
+        display: inline-block;
+        position: relative;
+        margin: 36px auto;
+    }
+    
+    .newsBlock{
+        width: 460px;
+        display: inline-block;
+        margin-left: 75px;
+    }
+
+    .newsBlock:first-child{
+        margin-left: 0px;
+    }
+
+    .newsBlock > img{
+        width: 460px;
+    }
+
+    .middleLink{
+        line-height: 4.1em;
+    }
+
+    .newsBtnWrap{
+        width: 100%;
+    }
+
+    .formBlock{
+        margin-left: 153px;
+    }
+
+    .contactDetails{
+        margin-right: 153px;
+    }
+
+    .schemeNav{
+        margin-top: 38px;
+    }
+
+}
+
+
+/*1260 resolution*/
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    header, .content, footer, .contacts{
+        width: 100%;
+        max-width: 1680px;
+    }
+
+    nav > ul{
+        margin-left: 10px;
+    }
+
+    nav > ul > li{
+        margin-left: 23px;
+    }
+
+    nav > ul > li:last-child{
+        margin-right: 37px;
+    }
+
+    nav > ul > li > a{
+        letter-spacing: -0.03em;
+    }
+
+    .logo{
+        margin-left: 33px;
+    }
+
+    .aboutCompanyContent{
+        width: 1000px;
+    }
+
+    .galleryWrap{
+        width: 100%;        
+    }
+
+    .arendLogo{
+        margin-left: -30px;
+        display: inline-block;
+        transform: scale(0.7822, 0.7822);
+    }
+
+    .arendLogo:first-child{
+        margin-left: 0px;
+    }
+
+    .newsBlock{
+        width: 357px;
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    .newsBlock:first-child{
+        margin-left: 0px;
+    }
+
+    .newsBlock > img{
+        max-width: 357px;
+    }
+
+    .newsBlockWrap{
+        display: inline-block;
+        position: relative;
+        margin: 36px auto;
+    }
+
+    .newsBtnWrap{
+        width: 100%;
+    }
+
+    .formBlock{
+        margin-left: 88px;
+        max-width: 591px;
+    }
+
+    input, textarea{
+        max-width: 566px;
+    }
+
+    .contactDetails{
+        margin-right: 89px;
+        float: right;
+        margin-left: 0px;
+    }
+
+    .schemeNav{
+        margin-top: 31px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .contentPic, .contentPic > img{
+        width: 842px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .contentInfo{
+       width: 472px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .newsDesc{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .contentInfo{
+       width: 430px;
+       margin-left: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .contentPic, .contentPic > img{
+        width: 610px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .newsDesc{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+
+/*-----------------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .line{
+        margin: 20px auto 10px auto;
+    }
+
+    .info{
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    .detailsBtnScreenResize{
+        margin: 20px auto 0px auto;
+    }
+
+    .title{
+        margin-top: 0px;
+        font-size: 30px;
+        line-height: 36px
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .line{
+        margin: 30px auto 10px auto;
+    }
+
+    .info{
+       line-height: 30px;
+    }
+
+    .detailsBtnScreenResize{
+        margin: 50px auto 0px auto;
+    }
+
+    .title{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .newsBtnSmallRes{
+       margin-top: 21px !important; 
+    }
+}
+
+/*--------------new styles------------------------*/
+
+.avSpaces{
+    display: block;
+    width: 100%;
+   /* height: 1710px;*/
+    background-color: #ffffff;
+}
+
+.avSpacesTitle{
+    margin: 280px auto 0px auto;
+    display: block;
+    font-size: 48px;
+    color: #000000;
+}
+
+.spacesOptions{
+    margin-left: 14.45%;
+    margin-right: 14.45%;
+    margin-top: 120px;
+    height: 281px;
+}
+
+.floors, .spaces{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    
+}
+
+.optionsWrap{
+    display: inline-block;
+    float: left;
+    margin-left: 310px;
+}
+
+.optionsWrap:first-child{
+    margin-left: 0px;
+}
+
+.optionName{
+    font-size: 21px;
+    font-family: "SegoeUILightwebfont";
+    color: #000000;
+}
+
+.floorBtn, .spacesBtn{
+    height: 59px;
+    width: 205px;
+    text-align: center;
+    background-color: #0082c6;
+    color: #ffffff;
+    font-family: "SegoeUILightwebfont";
+    font-size: 21px;
+    margin: 52px auto 0px auto;
+    display: inline-block;
+    line-height: 55px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.optionsArrow{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 98px;
+    cursor: pointer;
+}
+
+.floorsList, .spacesList{
+    width: 203px;
+    display: none;
+    margin-top: 15px;
+    list-style-type: none;
+    border: 1px solid #808080;
+    border-bottom-width: 2px;
+    border-bottom-color: #bfbfbf;
+}
+
+.spacesList{
+    visibility: hidden;
+    position: absolute;
+}
+
+.floorsList > li, .spacesList > li{
+    display: block;
+    height: 50px;
+    font-family: "SegoeUILightwebfont";
+    font-size: 21px;
+    color: #808080;
+    line-height: 49px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+.floorsList > li:hover, .spacesList > li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.floorsPicList{
+    display: inline;
+    list-style-type: none;
+}
+
+.floorsPicList > li{
+    display: none;
+}
+
+.floorsPicList > li:first-child{
+    display: inline;
+}
+
+.sendRequest{
+    text-align: center;
+}
+
+.floorValue, .spaceValue{
+    color: #000000;
+    font-family: "SegoeUILightwebfont";
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.valuesSeparator{
+    width: 100%;
+    color: #7f7f7f;
+    margin: 45px 0px 25px 0px;
+}
+
+.requestSup{
+    font-size: 26px;
+}
+
+.requestBtn{
+    margin: 45px 0px 0px 0px;
+}
+
+.planWrap{
+    margin-left: 11.458%;
+    margin-right: 6.7708%;
+}
+
+.floorPlanPic{ 
+    float: right;
+    margin-top: 130px;
+    margin-bottom: 146px;
+}
+
+.summary{
+    margin-top: 175px;
+    display: inline-block;
+    height: 320px;
+    float: left;
+}
+
+.listWrap{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+
+.summary > p{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "SegoeUILightwebfont";
+    color: #000000;
+}
+
+.summary > a{
+    margin-top: 100px;
+}
+
+.summary > p > sup{
+    font-size: 14px;
+}
+
+
+.sendRequestFormWrap{
+    width: 100%;
+    height: 1040px;
+    background-color: #d0d0d0;
+}
+
+.sendRequestForm{
+    margin: 0 auto;
+    width: 784px;
+}
+
+.sendRequestTitle{
+    text-align: center;
+    display: block;
+    padding-top: 285px;
+    margin: 0;
+    color: #000000;
+    margin-bottom: 190px;
+    font-size: 48px;
+}
+
+.sendRequestForm > form > .inputMessage{
+    height: 185px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1536px){
+    .optionsWrap{
+        margin-left: 180px;
+    }
+
+    .spacesOptions{
+        margin-left: 130px;
+        margin-right: 75px;
+    }
+
+    .planWrap{
+        width: 100%;
+        height: 820px;
+        display: inline-block;
+        margin: 0 0 0 0;
+    }
+
+    .summary {
+        margin-top: 175px;
+        display: inline;
+        height: 320px;
+        float: left;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .summary > p{
+        font-size: 20px;
+    }
+
+    .listWrap{
+        top: -360px;
+        left: 80px;
+        display: block;
+        transform: scale(0.7822, 0.7822);
+        position: relative;
+    }
+
+    .sendRequestForm{
+        margin: 0 auto;
+        width: 592px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+
+    .optionsWrap{
+        margin-left: 220px;
+    }
+
+    .planWrap {
+        margin-left: 125px;
+        margin-right: 125px;
+    }   
+
+    .listWrap{
+        left: 80px;
+        display: block;
+        position: relative;
+    }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Садовая Плаза</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body onload="prepareLayout()">
+	<header>
+		<nav>
+			<ul class="navMenu">
+				<li class="menuItem">
+					<a class="menuItemLink" href="">О компании</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">О бизнес-центре</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Параметры здания</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Расположение</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Услуги по эксплуатации</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Инфраструктура</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Рестораны и кафе</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Паркинг</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Свободные площади</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Поэтажные планы</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Отправить заявку</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Галерея</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Информация для арендаторов</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Правила здания</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Формы заявок</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Заявка на технические работы</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Арендаторы</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Новости</a>
+				</li>
+				<li class="menuItem">
+					<a class="menuItemLink" href="">Контакты</a>
+					<ul class="subMenu">
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Схема проезда</a>
+						</li>
+						<li class="subMenuItem">
+							<a class="subMenuItemLink" href="">Обратная связь</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menuItemRegistration">
+					<a class="menuItemLink" href="">Регистрация / Вход</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="logoBlock">
+				<img class="logo" src="img/logo.png" alt="#">
+				<img class="name" src="img/name.png" alt="#">
+				<!-- добавить языковое меню -->
+		</div>
+
+	</header>
+
+<!-- BEGIN OF CONTENT BLOCK -->
+	<div class="content"> 
+
+		<div class="centreInfo">
+			<h2 class="centreInfoTitle">О бизнес-центре</h2>
+			<div class="centreInfoContentWrap">
+				<div class="centreInfoContent">
+					<p class="contentText">Бизнес центр «Садовая Плаза» представляет собой 14-этажное здание площадью 16250 м<sup>2</sup> с двухэтажным подземным паркингом, а также наземной автостоянкой. Несомненно, здание выделяется своим уникальным архитектурным стилем и элементами экстерьера такими как: балконы, эркеры и лепнина на фасадах.<br /><br />Бизнес центр «Садовая Плаза» расположен в ЦАО на улице Долгоруковская д. 7 в шаговой доступности от станций метро Новослободская, Менделеевская и Маяковская, а также в непосредственной близости Садового кольца. Удобное месторасположение в центре деловой жизни Москвы с прилегающей развитой инфраструктурой: кафе, банки, рестораны, салоны красоты, нотариальные конторы, торговые и медицинские центры, безусловно является одним из главных преимуществ Бизнес центра.<br /><br />Все офисные помещения соответствуют стандартам помещений класса А и выделяются первоклассной отделкой и эффективной планировкой рабочего<br /> пространства, что обеспечит комфортные условия для работы в помещениях здания.<br /><br />"Е+К Девелопмент энд Менеджмент С. А." в лице отдела эксплуатации осуществляет круглосуточный контроль и обслуживание всех инженерных систем и оборудования, которыми оснащено здание для поддержания благоприятной атмосферы в любое время года.
+					</p>
+				</div>
+			</div>
+			<img class="backgroundLogo" src="img/backgroundLogo.png">
+		</div>
+
+		<!-- Gallery slider -->
+
+		<div class="gallery">
+	 		<div class="galleryWrap">
+				<ul id="gallerySlider">
+					<li class="gallerySliderLi">
+						<img src="img/gsPic1.jpg" alt="#">
+					</li>
+					<li class="gallerySliderLi">
+						<img src="img/gsPic2.jpg" alt="#">
+					</li>
+				</ul>
+				
+				<div class="slNavigation">
+					<div id="slLeft" onclick="slideLeft()">
+						<img src="img/slideNavLeft.png" alt="#">
+					</div>
+					<div id="slRight" onclick="slideRight()">
+						<img src="img/slideNavRight.png" alt="#">
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!-- Operation services -->
+
+		<div class="opServices">
+			<h2 class="opServicesTitle">Услуги по эксплуатации</h2>
+			<div class="opServicesWrap">
+				
+			
+				<ul class="opServicesList">
+					<li class="opServicesListLi">
+						<h2 class="opServicesTitle innerTitle">Отопление, вентиляция<br />и кондиционирование</h2>
+						<p class="contentText opServicesInfo">
+							Отопление и охлаждение площадей осуществляется с помощью четырехтрубных фанкойлов с термостатической регулировкой, что позволяет поддерживать комфортную температуру, как летом, так и зимой.
+						</p>
+					</li>
+					<li class="opServicesListLi">
+						<h2 class="opServicesTitle innerTitle">Подача электроэнергии</h2>
+						<p class="contentText opServicesInfo">
+							Энергоснабжение осуществляется по техническим условиям МКС «МОСЭНЕРГО». Для бесперебойной работы системы электроснабжения предусмотрен АВР с возможностью переключения на другую независимую линию.
+						</p>
+					</li>
+					<li class="opServicesListLi lastItemsMargin">
+						<h2 class="opServicesTitle innerTitle">Водоснабжение</h2>
+						<p class="contentText opServicesInfo">
+							В здание бизнес центра вода подается из городского водопровода Мосводоканалом.
+						</p>
+					</li>
+					<li class="opServicesListLi lastItemsMargin">
+						<h2 class="opServicesTitle innerTitle">Клининг</h2>
+						<p class="contentText opServicesInfo">
+							Высококвалифициорованная клининговая служба БЦ ежедневно осуществляет уборку мест общего пользования: лобби, лифтовые холлы, лестничные площадки, прилегающую к зданию территорию; а также вынос мусора. Два раза в год командой профессиональных альпинистов производится мытье фасада и внешних окон здания.
+						</p>
+					</li>
+
+				</ul>
+
+				<ul class="opServicesList floatRight">
+					<li class="opServicesListLi">
+						<h2 class="opServicesTitle innerTitle">Система противопожарной безопасности</h2>
+						<p class="contentText opServicesInfo">
+							Здание бизнес центра оборудовано  современными системами пожарной сигнализации и пожаротушения: датчики пожарной сигнализации (дымовые, оптические, тепловые), ручные пожарные извещатели, датчики давления воды, система звукового оповещения и управления эвакуацией, спринклерная система пожаротушения, дымовытяжные вентиляторы, нагнетающие вентиляторы и пожарные воздушные заслонки.
+						</p>
+					</li>
+					<li class="opServicesListLi">
+						<h2 class="opServicesTitle innerTitle">Безопасность</h2>
+						<p class="contentText opServicesInfo">
+							Бизнес центр охраняется 24 часа высококвалифицированной Службой Безопасности. Здание БЦ  оборудованы современными охранными системами: системой контроля и управления доступом (СКУД), системами охранной сигнализации и видеонаблюдения. Вход в здание осуществляется по магнитным пропускам как для сотрудников компаний, так и для посетителей
+						</p>
+					</li>
+					<li class="opServicesListLi lastItemsMargin">
+						<h2 class="opServicesTitle innerTitle">Парковка</h2>
+						<p class="contentText opServicesInfo">
+							На территории бизнес центра имеется охраняемая двухуровневая подземная парковка, а также наземная стоянка для арендаторов.
+						</p>
+					</li>
+
+
+				</ul>
+
+			</div>
+		</div>
+
+	</div> <!-- END OF CONTENT BLOCK -->
+
+
+	<footer>
+		<p class="siteDesign">Дизайн сайта <a href="" class="author">Еловый Слон</a></p>
+	</footer>
+</body>	
+</html>

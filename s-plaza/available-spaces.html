@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Садовая Плаза</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body onload="prepareLayout()">
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="">О компании</a>
+				</li>
+				<li>
+					<a href="">О бизнес-центре</a>
+					<ul>
+						<li>
+							<a href="">Параметры здания</a>
+						</li>
+						<li>
+							<a href="">Расположение</a>
+						</li>
+						<li>
+							<a href="">Услуги по эксплуатации</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Инфраструктура</a>
+					<ul>
+						<li>
+							<a href="">Рестораны и кафе</a>
+						</li>
+						<li>
+							<a href="">Паркинг</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Свободные площади</a>
+					<ul>
+						<li>
+							<a href="">Поэтажные планы</a>
+						</li>
+						<li>
+							<a href="">Отправить заявку</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Галерея</a>
+				</li>
+				<li>
+					<a href="">Информация для арендаторов</a>
+					<ul>
+						<li>
+							<a href="">Правила здания</a>
+						</li>
+						<li>
+							<a href="">Формы заявок</a>
+						</li>
+						<li>
+							<a href="">Заявка на технические работы</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Арендаторы</a>
+				</li>
+				<li>
+					<a href="">Новости</a>
+				</li>
+				<li>
+					<a href="">Контакты</a>
+					<ul>
+						<li>
+							<a href="">Схема проезда</a>
+						</li>
+						<li>
+							<a href="">Обратная связь</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Регистрация / Вход</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="logoBlock">
+				<a href=""><img class="logo" src="img/logo.png" alt="#"></a>
+				<img class="name" src="img/name.png" alt="#">
+				<!-- добавить языковое меню -->
+		</div>
+
+	</header>
+
+<!-- BEGIN OF CONTENT BLOCK -->
+	<div class="content"> 
+
+		<div class="avSpaces">
+			<h2 class="title avSpacesTitle">Свободные площади</h2>
+			<div class="spacesOptions">
+				<div class="optionsWrap">
+					<div class="floors">
+						<p class="optionName">Этаж</p>
+						<div class="floorBtn" onclick="showFloorsList()">1 этаж</div>
+						<ul class="floorsList">
+							<li>1 этаж</li>
+							<li>2 этаж</li>
+						</ul>
+					</div>
+					<img src="img/optionsArrow.png" class="optionsArrow" onclick="showFloorsList()">
+				</div>
+				<div class="optionsWrap">
+					<div class="spaces">
+						<p class="optionName">Площадь</p>
+						<div class="spacesBtn" onclick="showSpacesList()">120 м<sup>2</sup></div>
+						<ul class="spacesList">
+							<li>126.56 м<sup>2</sup></li>
+							<li>130 м<sup>2</sup></li>
+							<li>140 м<sup>2</sup></li>
+							<li>150 м<sup>2</sup></li>
+						</ul>
+						<ul class="spacesList">
+							<li>220 м<sup>2</sup></li>
+							<li>230 м<sup>2</sup></li>
+							<li>240 м<sup>2</sup></li>
+							<li>250 м<sup>2</sup></li>
+						</ul>
+					</div>
+					<img src="img/optionsArrow.png" class="optionsArrow" onclick="showSpacesList()">
+				</div>
+				<div class="optionsWrap">
+					<div class="sendRequest">
+						<p class="floorValue">1 этаж</p>
+						<hr class="valuesSeparator" />
+						<p class="spaceValue">120 м<sup class="requestSup">2</sup></p>
+						<a href="" class="detailsBtn requestBtn">Отправить заявку</a>
+					</div>
+				</div>
+			</div>
+
+		</div>	
+		
+		<div class="planWrap">
+			<div class="summary">
+				<p id="summaryFloor">Этаж: 1</p>
+				<p>Используемая площадь: 140,9 м<sup>2</sup></p>
+				<p>Арендуемая площадь: 161 м<sup>2</sup></p>
+				<p>Готовность: С отделкой</p>
+				<a href="" class="detailsBtn requestBtn">Загрузить PDF</a>
+			</div>
+
+			<div class="listWrap">
+				<ul class="floorsPicList">
+					<li><img src="img/1stFloorPlan.png" class="floorPlanPic" alt=""></li>
+					<li><img src="img/2ndFloorPlan.png" class="floorPlanPic" alt=""></li>
+				</ul>
+			</div>
+			
+		</div>
+			
+
+		<!-- Gallery slider -->
+
+		<div class="gallery">
+	 		<div class="galleryWrap">
+				<ul id="gallerySlider">
+					<li class="gallerySliderLi">
+						<img src="img/spacesPic1.jpg" alt="#">
+					</li>
+					<li class="gallerySliderLi">
+						<img src="img/spacesPic2.jpg" alt="#">
+					</li>
+					<li class="gallerySliderLi">
+						<img src="img/spacesPic3.jpg" alt="#">
+					</li>
+				</ul>
+				
+				<div class="slNavigation">
+					<div id="slLeft" onclick="slideLeft()">
+						<img src="img/slideNavLeft.png" alt="#">
+					</div>
+					<div id="slRight" onclick="slideRight()">
+						<img src="img/slideNavRight.png" alt="#">
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!-- Send request -->
+
+		<div class="sendRequestFormWrap">
+			<div class="sendRequestForm">
+				<h2 class="title sendRequestTitle">Отправить заявку</h2>
+				<form action="">
+					<p class="formName">Обратная связь</p>
+					
+					<input class="inputName" type="text" name="Name" placeholder="Имя">
+
+					<input class="inputMail" type="text" name="email" placeholder="Email">
+
+					<textarea class="inputMessage" name="message" placeholder="Сообщение"></textarea>
+
+					<button class="inputBtn" type="submit" name="sendBtn">Отправить</button>
+
+				</form>
+		</div>
+
+	</div> <!-- END OF CONTENT BLOCK -->
+
+	<footer>
+		<p class="siteDesign">Дизайн сайта <a href="" class="author">Еловый Слон</a></p>
+	</footer>
+</body>	
+</html>
