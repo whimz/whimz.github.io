@@ -932,8 +932,9 @@ section{
 /*  ------ media ------*/
 
 @media only screen
-and (min-device-width: 640px)
+and (min-device-width: 720px)
 and (max-device-width: 768px) and (orientation: portrait){
+
 	.logo{
 		width: 100px;
 		height: auto;
@@ -999,7 +1000,7 @@ and (max-device-width: 768px) and (orientation: portrait){
 	}
 
 	nav{
-		display: inline-block;
+		display: none;
 		margin-top: 22px;
 		width: 100%;
 		background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
