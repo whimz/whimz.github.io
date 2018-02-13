@@ -78,6 +78,12 @@ i {
 	font-style: normal;
 }
 
+/*
+body{
+	font-size: 10px;
+}
+*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -926,8 +932,8 @@ section{
 /*  ------ media ------*/
 
 @media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px) and (orientation: portrait){
+and (min-device-width: 640px)
+and (max-device-width: 768px) and (orientation: portrait){
 	.logo{
 		width: 100px;
 		height: auto;
@@ -1033,19 +1039,3 @@ and (max-device-width: 568px) and (orientation: portrait){
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
