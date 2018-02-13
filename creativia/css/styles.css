@@ -919,7 +919,60 @@ section{
 	color: #ff0036;
 }
 
+/*  ------ media ------*/
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+	.logo{
+		width: 100px;
+		height: auto;
+	}
+
+	.content-wrapper{
+		position: relative;
+		width: 100%;
+		display: block;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.nav-wrap{
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		z-index: 5;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.nav-wrap:hover nav{
+		display: inline-block;
+	}
+
+	nav ul{
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	.nav-menu-item{
+		position: relative;
+		float: left;
+		margin-left: 35px;
+	}
+
+	.nav-menu-item a{
+		font-size: 12px;
+		line-height: 34px;
+	}
+
+	.active-item:before, .active-item:after{
+		border-radius: 50%;
+	}
+
+}
 
 
 
