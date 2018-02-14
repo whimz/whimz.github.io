@@ -959,7 +959,7 @@ and (max-width: 1200px){
 		position: absolute;
 		display: block;
 		height: 2px;
-		width: 40px;
+		width: 80px;
 		background-color: #fff;
 		content: '';
 		cursor: pointer;
