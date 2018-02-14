@@ -943,8 +943,8 @@ section{
 /*  ------ media ------*/
 
 @media screen
-and (min-width: 600px)
-and (max-width: 720px) and (orientation: portrait){
+and (min-width: 640px)
+and (max-width: 780px) and (orientation: portrait){
 
 	#popup-menu{
 		position: relative;
