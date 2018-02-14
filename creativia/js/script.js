@@ -1,38 +1,83 @@
 window.onload = function () {
 
     let jsItem = [];
+    let popupItem = [];
     let activeItem;
     let headerCarouselItem = [];
     let carouselArrowRight;
     let carouselArrowLeft;
     let headerCarouselItemIndex = 0;
+    let navToggle;
+    let navToggleVisible = false;
 
-    if (document.getElementsByClassName("active-item")){
-        activeItem = document.getElementsByClassName("active-item")[0];
-    }
-
-    if (document.getElementsByClassName("js-item")){
-        jsItem = document.getElementsByClassName("js-item");
-
-        for(let i = 0; i < jsItem.length; i++){
-            jsItem[i].onclick = function () {
-                activeItem.classList.remove("active-item");
-                this.classList.add("active-item");
-                activeItem = this;
-                smoothScroll((this.getAttribute("href")).slice(1));
-            };
+    function init(){
+        if (document.getElementsByClassName("active-item")){
+            activeItem = document.getElementsByClassName("active-item")[0];
         }
+
+        if (document.getElementsByClassName("js-item")){
+            jsItem = document.getElementsByClassName("js-item");
+
+            for(let i = 0; i < jsItem.length; i++){
+                jsItem[i].onclick = function () {
+                    activeItem.classList.remove("active-item");
+                    this.classList.add("active-item");
+                    activeItem = this;
+                    smoothScroll((this.getAttribute("href")).slice(1));
+                    navToggleClick();
+                };
+            }
+        }
+
+        if (document.getElementsByClassName("header-carousel-item")){
+            headerCarouselItem = document.getElementsByClassName("header-carousel-item");
+        }
+
+        if(document.getElementById("carousel-arrow-right") && document.getElementById("carousel-arrow-left")){
+            carouselArrowRight = document.getElementById("carousel-arrow-right");
+            carouselArrowLeft = document.getElementById("carousel-arrow-left");
+            carouselArrowLeft.onclick = leftClick;
+            carouselArrowRight.onclick = rightClick;
+        }
+
+        if(document.getElementById("nav-toggle")){
+            navToggle = document.getElementById("nav-toggle");
+            navToggle.onclick = navToggleClick;
+        }
+
     }
 
-    if (document.getElementsByClassName("header-carousel-item")){
-        headerCarouselItem = document.getElementsByClassName("header-carousel-item");
+    init();
+
+    function navToggleClick() {
+        navToggleRotate();
+        if (navToggleVisible === false){
+            document.getElementById("popup-menu").style.height = "550px";
+            navToggleVisible = true;
+            return false;
+        }
+        document.getElementById("popup-menu").style.height = "0px";
+        navToggleVisible = false;
+        return false;
     }
 
-    if(document.getElementById("carousel-arrow-right") && document.getElementById("carousel-arrow-left")){
-        carouselArrowRight = document.getElementById("carousel-arrow-right");
-        carouselArrowLeft = document.getElementById("carousel-arrow-left");
-        carouselArrowLeft.onclick = leftClick;
-        carouselArrowRight.onclick = rightClick;
+    function navToggleRotate() {
+        let element = document.getElementsByClassName("popup-menu-button")[0];
+
+        if (element.classList) {
+            element.classList.toggle("rotate");
+        } else {
+            // IE9
+            let classes = element.className.split(" ");
+            let i = classes.indexOf("rotate");
+
+            if (i >= 0)
+                classes.splice(i, 1);
+            else
+                classes.push("rotate");
+            element.className = classes.join(" ");
+        }
+
     }
 
     function leftClick() {
